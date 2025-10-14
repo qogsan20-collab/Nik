@@ -1,0 +1,40 @@
+{
+  "version": 1,
+  "hacks": [
+    {
+      "id": "analytical-structure",
+      "domain": "Analytical",
+      "title": "Structure the Problem First",
+      "tip": "Before prompting, list the sub-steps you want the AI to follow. It keeps you in control of the logic.",
+      "example": "“Break the launch plan into research, messaging, and test steps before suggesting copy.”"
+    },
+    {
+      "id": "critical-evidence",
+      "domain": "Critical",
+      "title": "Ask for Receipts",
+      "tip": "When a response feels confident, ask the AI to cite why it thinks it’s correct. You’ll catch weak spots faster.",
+      "example": "“List three supporting facts you used to reach this conclusion.”"
+    },
+    {
+      "id": "flexibility-remix",
+      "domain": "Flexibility",
+      "title": "Remix the Perspective",
+      "tip": "Invite the model to answer from opposing viewpoints. It keeps you adaptable when your first direction stalls.",
+      "example": "“How would a product manager and a customer success lead tackle this?”"
+    },
+    {
+      "id": "reliance-ownership",
+      "domain": "Reliance",
+      "title": "Pair AI with Human QA",
+      "tip": "Let the AI ship a first draft, then quickly audit the clarity and tone yourself. You gain speed without over-relying.",
+      "example": "“Draft the email, then highlight any phrasing that could sound overly formal.”"
+    },
+    {
+      "id": "trust-doublecheck",
+      "domain": "Trust",
+      "title": "Spot-Check with a Second Source",
+      "tip": "When accuracy matters, ask the AI where it could be wrong and what you should verify manually.",
+      "example": "“Where might this analysis be off, and what should I double-check?”"
+    }
+  ]
+}

@@ -1,0 +1,59 @@
+{
+  "version": 2,
+  "questions": [
+    { "id": "A1", "type": "scale", "domain": "Inductive", "question": "While using the AI, I noticed patterns across its answers.", "scale": { "min": 1, "max": 5 } },
+    { "id": "A2", "type": "scale", "domain": "Inductive", "question": "I tried to generalize from the AI’s specific outputs to broader ideas.", "scale": { "min": 1, "max": 5 } },
+    { "id": "A3", "type": "scale", "domain": "Inductive", "question": "I felt confident making conclusions based on a few examples the AI gave me.", "scale": { "min": 1, "max": 5 } },
+    { "id": "A4", "type": "single", "domain": "Inductive", "question": "After seeing similar answers from the AI, I would:", "options": ["Infer a general principle from those answers (+1)", "Wait until I had more data before deciding", "Ignore the similarities"] },
+    { "id": "A5", "type": "single", "domain": "Inductive", "question": "If AI gave me three similar suggestions for solving a problem, I assumed:", "options": ["There’s likely an underlying rule/pattern (+1)", "It’s just a coincidence", "I shouldn’t conclude anything"] },
+
+    { "id": "B1", "type": "scale", "domain": "Deductive", "question": "I applied rules or principles I already knew while interpreting the AI’s output.", "scale": { "min": 1, "max": 5 } },
+    { "id": "B2", "type": "scale", "domain": "Deductive", "question": "I used the AI’s general explanation to figure out what I should do in my specific case.", "scale": { "min": 1, "max": 5 } },
+    { "id": "B3", "type": "scale", "domain": "Deductive", "question": "I looked for clear cause-and-effect logic in the AI’s answers.", "scale": { "min": 1, "max": 5 } },
+    { "id": "B4", "type": "single", "domain": "Deductive", "question": "If the AI explained a rule that applies to all cases, I used it to:", "options": ["Deduce what to do in my specific situation (+1)", "Wait until I could test it myself", "Disregard the rule unless someone else confirmed it"] },
+    { "id": "B5", "type": "single", "domain": "Deductive", "question": "When AI gave me a policy or guideline, I:", "options": ["Applied it directly to my own situation (+1)", "Ignored it until I had confirmation", "Considered it irrelevant"] },
+
+    { "id": "C1", "type": "scale", "domain": "Analytical", "question": "I broke down my problem into smaller parts.", "scale": { "min": 1, "max": 5 } },
+    { "id": "C2", "type": "scale", "domain": "Analytical", "question": "I reviewed the AI’s response step by step.", "scale": { "min": 1, "max": 5 } },
+    { "id": "C3", "type": "scale", "domain": "Analytical", "question": "I relied on systematic checking rather than intuition when judging the AI’s response.", "scale": { "min": 1, "max": 5 } },
+    { "id": "C4", "type": "single", "domain": "Analytical", "question": "When exploring a new feature in AI, I would:", "options": ["Test one function at a time (+1)", "Try everything at once", "Wait for training materials"] },
+    { "id": "C5", "type": "single", "domain": "Analytical", "question": "After getting a long AI response, I typically:", "options": ["Break it into smaller sections and review carefully (+1)", "Skim quickly and move on", "Ignore most of the detail"] },
+
+    { "id": "D1", "type": "scale", "domain": "Analogical", "question": "I compared the AI’s response to situations I’ve solved before.", "scale": { "min": 1, "max": 5 } },
+    { "id": "D2", "type": "scale", "domain": "Analogical", "question": "I thought about how the AI’s suggestions were like other tools or problems I know.", "scale": { "min": 1, "max": 5 } },
+    { "id": "D3", "type": "scale", "domain": "Analogical", "question": "I used analogies or metaphors to make sense of what the AI told me.", "scale": { "min": 1, "max": 5 } },
+    { "id": "D4", "type": "single", "domain": "Analogical", "question": "If I didn’t understand an AI explanation, I would:", "options": ["Relate it to something familiar to me (+1)", "Drop the question and move on", "Wait for someone else to explain it"] },
+    { "id": "D5", "type": "single", "domain": "Analogical", "question": "When troubleshooting an AI mistake, I:", "options": ["Compared it to errors I’ve seen in other systems (+1)", "Treated it as a one-time event", "Ignored it"] },
+
+    { "id": "E1", "type": "scale", "domain": "Critical", "question": "I questioned whether the AI’s answer was accurate.", "scale": { "min": 1, "max": 5 } },
+    { "id": "E2", "type": "scale", "domain": "Critical", "question": "I checked if the AI’s explanation was backed by evidence or reasoning.", "scale": { "min": 1, "max": 5 } },
+    { "id": "E3", "type": "scale", "domain": "Critical", "question": "I considered multiple perspectives before accepting the AI’s output.", "scale": { "min": 1, "max": 5 } },
+    { "id": "E4", "type": "single", "domain": "Critical", "question": "When the AI gave me an answer, I:", "options": ["Evaluated whether it fit my context (+1)", "Accepted it immediately", "Passed it along without checking"] },
+    { "id": "E5", "type": "single", "domain": "Critical", "question": "If the AI’s response conflicted with something I already knew, I:", "options": ["Weighed both sides and looked for more evidence (+1)", "Chose whichever matched my existing view", "Ignored the conflict"] },
+
+    { "id": "F1", "type": "scale", "domain": "Flexibility", "question": "I adjusted my approach when the AI gave me new information.", "scale": { "min": 1, "max": 5 } },
+    { "id": "F2", "type": "scale", "domain": "Flexibility", "question": "Even if I had an initial idea, I was open to changing it after seeing the AI’s output.", "scale": { "min": 1, "max": 5 } },
+    { "id": "F3", "type": "scale", "domain": "Flexibility", "question": "I quickly adapted when the AI suggested something unexpected.", "scale": { "min": 1, "max": 5 } },
+    { "id": "F4", "type": "single", "domain": "Flexibility", "question": "If the AI suggested a different solution than my original plan, I would:", "options": ["Consider adapting my plan based on the suggestion (+1)", "Stick with my original plan no matter what", "Ignore both and look for another source"] },
+    { "id": "F5", "type": "single", "domain": "Flexibility", "question": "After receiving feedback from the AI that challenged my assumption, I:", "options": ["Re-evaluated my assumption (+1)", "Dismissed the feedback", "Ignored it to save time"] },
+
+    { "id": "G1", "type": "scale", "domain": "Reliance", "question": "I preferred to let the AI do most of the thinking for me.", "scale": { "min": 1, "max": 5 } },
+    { "id": "G2", "type": "scale", "domain": "Reliance", "question": "I found myself relying on the AI instead of working through the solution myself.", "scale": { "min": 1, "max": 5 } },
+    { "id": "G3", "type": "scale", "domain": "Reliance", "question": "I engaged deeply with the AI’s responses rather than just copying them (reverse scored).", "scale": { "min": 1, "max": 5 } },
+    { "id": "G4", "type": "single", "domain": "Reliance", "question": "When given a choice between solving the problem myself or asking AI, I usually:", "options": ["Ask AI and use its full response (+1)", "Ask AI but then rework the answer myself", "Avoid using AI for this type of task"] },
+    { "id": "G5", "type": "single", "domain": "Reliance", "question": "After the AI gave me a response, I:", "options": ["Copied it directly without much modification (+1)", "Adapted it to my context", "Used it only as inspiration"] },
+
+    { "id": "I1", "type": "scale", "domain": "Trust", "question": "I trusted the AI’s answers without much verification.", "scale": { "min": 1, "max": 5 } },
+    { "id": "I2", "type": "scale", "domain": "Trust", "question": "I felt cautious about whether the AI’s responses could be wrong (reverse scored).", "scale": { "min": 1, "max": 5 } },
+    { "id": "I3", "type": "scale", "domain": "Trust", "question": "I felt confident that the AI was providing reliable information.", "scale": { "min": 1, "max": 5 } },
+    { "id": "I4", "type": "single", "domain": "Trust", "question": "When AI gave me a detailed solution, I:", "options": ["Accepted it without checking (+1)", "Partially checked but used it", "Double-checked thoroughly before using it"] },
+    { "id": "I5", "type": "single", "domain": "Trust", "question": "If the AI gave me an answer that conflicted with my prior knowledge, I:", "options": ["Trusted the AI’s version (+1)", "Balanced both and evaluated", "Relied on my own knowledge"] },
+
+    { "id": "J1", "type": "scale", "domain": "Confidence", "question": "I felt confident interpreting the AI’s responses.", "scale": { "min": 1, "max": 5 } },
+    { "id": "J2", "type": "scale", "domain": "Confidence", "question": "I knew how to judge when the AI’s answers were useful for my situation.", "scale": { "min": 1, "max": 5 } },
+    { "id": "J3", "type": "scale", "domain": "Confidence", "question": "I understood the limitations of what the AI can and cannot do.", "scale": { "min": 1, "max": 5 } },
+    { "id": "J4", "type": "single", "domain": "Confidence", "question": "After interacting with AI, I feel my understanding of its strengths and limits is:", "options": ["Strong (+1)", "Moderate", "Weak"] },
+    { "id": "J5", "type": "single", "domain": "Confidence", "question": "If I needed to explain to a coworker how to use this AI tool effectively, I could:", "options": ["Easily (+1)", "With some difficulty", "Not at all"] }
+  ]
+}
+
