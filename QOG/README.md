@@ -1,6 +1,6 @@
 # QOG Chatbot
 
-A modern AI-powered chatbot application with a clean, intuitive interface powered by Google's Gemini 2.0 API.
+Modern AI assistant with a React (Vite + TS) frontend and a Flask backend using Google Gemini. This README includes quick local dev, GitHub push (UI), and easy Cloud Run deploy steps with minimal changes.
 
 ## Features
 
@@ -21,7 +21,7 @@ A modern AI-powered chatbot application with a clean, intuitive interface powere
 
 ### Backend
 - Python Flask
-- Google Generative AI (Gemini 2.0)
+- Google Generative AI (Gemini 2.x via `google-generativeai`)
 - CORS enabled for cross-origin requests
 
 ## Quick Start
@@ -49,8 +49,8 @@ A modern AI-powered chatbot application with a clean, intuitive interface powere
    ```
 
 3. **Open your browser:**
-   - Frontend: http://localhost:5173
-   - Backend API: http://localhost:5000
+   - Frontend: http://localhost:5173 (default Vite dev port)
+   - Backend API: http://localhost:5050 (Flask dev server)
 
 ## Usage
 
@@ -60,7 +60,7 @@ A modern AI-powered chatbot application with a clean, intuitive interface powere
 4. **Track Progress**: View iteration count and time spent on each task
 5. **Complete Tasks**: Click "Done" to mark a task as complete
 
-## API Endpoints
+## API Endpoints (Backend)
 
 - `POST /api/new-task` - Create a new task
 - `POST /api/send-message` - Send a message to the current task
@@ -72,10 +72,13 @@ A modern AI-powered chatbot application with a clean, intuitive interface powere
 
 ## Configuration
 
-The Gemini API key is configured in `backend/app.py`. To use your own key:
+- Backend requires `GEMINI_API_KEY`.
+  - Local: create `QOG/backend/local.env` with `GEMINI_API_KEY=...` (already read by the app) or export in your shell.
+  - Cloud Run: store in Secret Manager and set `GEMINI_API_KEY` via `--set-secrets GEMINI_API_KEY=gemini-api-key:latest` (see Deploy section).
 
-1. Replace the `GEMINI_API_KEY` variable in `backend/app.py`
-2. Or set it as an environment variable: `export GEMINI_API_KEY="your-key-here"`
+- Frontend API base URL:
+  - The app reads `VITE_API_URL` at build/runtime for requests to the backend.
+  - Defaults to `http://localhost:5050/api` when unset.
 
 ## Project Structure
 
@@ -84,6 +87,7 @@ QOG/
 ├── backend/
 │   ├── app.py              # Flask backend with Gemini integration
 │   └── requirements.txt    # Python dependencies
+│
 ├── src/
 │   ├── components/
 │   │   ├── Sidebar.tsx     # Left sidebar component
@@ -93,24 +97,83 @@ QOG/
 │   │   ├── Sidebar.css     # Sidebar styles
 │   │   └── ChatView.css    # Chat interface styles
 │   └── App.tsx             # Main application component
+│
+├── Dockerfile              # Container for backend (Cloud Run)
+├── .dockerignore           # Keeps Docker builds small
+├── .gitignore              # Keeps repo clean
 ├── start.sh                # Startup script
 └── README.md              # This file
 ```
 
 ## Development
 
-- The frontend runs on Vite with hot reload
-- The backend runs on Flask with debug mode enabled
-- Both servers restart automatically when files change
+- Frontend runs on Vite with hot reload (default port 5173)
+- Backend runs on Flask with debug mode on port 5050
+- Both restart automatically on file changes
+
+## Push To GitHub (UI-only)
+
+Pick one of these UI approaches:
+
+- GitHub Desktop (recommended):
+  - Open GitHub Desktop → File → Add Local Repository → choose the `QOG` folder.
+  - Ensure `.gitignore` is present so `node_modules/` and `backend/venv/` are ignored.
+  - Commit → Publish repository → choose name/visibility.
+
+- GitHub.com (manual upload):
+  - Create a new repo (no README).
+  - Click “uploading an existing file” and drag contents of `QOG/`, excluding: `node_modules/`, `backend/venv/`, `dist/`, `backend/qog.db`, `backend/task_history/`, and any `.env` files.
+
+## Deploy To Google Cloud Run (minimal changes)
+
+You can deploy backend and frontend as separate Cloud Run services.
+
+### 1) Backend (Flask) → Cloud Run
+
+Prerequisites:
+- gcloud installed and authenticated; billing enabled.
+- Gemini key in Secret Manager: `echo -n "<YOUR_GEMINI_API_KEY>" | gcloud secrets create gemini-api-key --data-file=- --replication-policy=automatic`
+
+Deploy using the included script:
+- From `QOG/` run:
+  - `export PROJECT_ID=<your-gcp-project-id>`
+  - `export REGION=us-central1`
+  - `export GEMINI_SECRET_NAME=gemini-api-key`
+  - `./deploy_cloud_run.sh`
+
+The script builds the image from `QOG/Dockerfile`, deploys, and prints the Cloud Run URL (e.g., `https://qog-web-xxxxx-uc.a.run.app`).
+
+### 2) Frontend (React) → Cloud Run (buildpacks)
+
+The frontend reads `VITE_API_URL` to reach the backend.
+
+Option A: gcloud CLI
+- From `QOG/` run:
+  - `export REGION=us-central1`
+  - `export BACKEND_API=https://<your-backend>/api`
+  - `gcloud run deploy qog-frontend --source . --region $REGION --allow-unauthenticated --set-env-vars VITE_API_URL=$BACKEND_API`
+
+Option B: Cloud Console UI
+- Cloud Run → Create service → Deploy one revision from source.
+- Connect your GitHub repo (if prompted).
+- Set Service name: `qog-frontend`, Region.
+- Set environment variable: `VITE_API_URL = https://<your-backend>/api`.
+- Deploy.
+
+## Data Persistence Notes
+
+The backend currently writes JSON files under `backend/` (e.g., users.json, task_history, results.json). On Cloud Run, the filesystem is ephemeral and not shared across instances. For production, move data to managed services:
+- Firestore (operational data: users, tasks, history)
+- BigQuery (analytics/results)
+- Cloud Storage (JSON snapshots/backups)
 
 ## Troubleshooting
 
 1. **Backend not starting**: Make sure Python 3.7+ is installed and the virtual environment is activated
-2. **Frontend not connecting**: Ensure the backend is running on port 5000
+2. **Frontend not connecting**: Ensure the backend is running on port 5050 locally, or set `VITE_API_URL` to your Cloud Run backend URL.
 3. **API errors**: Check the browser console and backend logs for error messages
 4. **Gemini API errors**: Verify your API key is correct and has sufficient quota
 
 ## License
 
 This project is for demonstration purposes.
-
