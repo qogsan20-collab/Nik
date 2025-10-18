@@ -1,0 +1,84 @@
+{
+  "1760459633301": {
+    "id": "1760459633301",
+    "task_id": "1760459633301",
+    "user_id": "user-b231616357bb4f6ea69e938b5bb53771",
+    "name": "One",
+    "category": "Work",
+    "messages": [
+      {
+        "id": "msg-744d55e1d5484cbba7d7c247a533f4ad",
+        "role": "user",
+        "content": "Hii",
+        "timestamp": "2025-10-14T22:03:55.560883"
+      },
+      {
+        "id": "msg-dc4a6cd4635b42c8802a27a5f5cbb2a3",
+        "role": "assistant",
+        "content": "Hello! I'm QOG's task assistant.\n\nHow can I help you today? Please tell me what you'd like to achieve, and I'll provide actionable guidance to get started.",
+        "timestamp": "2025-10-14T22:03:58.916904",
+        "metadata": {
+          "format": "markdown"
+        }
+      },
+      {
+        "id": "msg-912835784a0343b19175bcaf6b618e2c",
+        "role": "user",
+        "content": "Who are you",
+        "timestamp": "2025-10-14T22:04:03.529393"
+      },
+      {
+        "id": "msg-c8d074fa5dc541dbbbd8fe54948e6e92",
+        "role": "assistant",
+        "content": "I am QOG's task assistant. My purpose is to provide you with actionable guidance to help you complete your tasks.\n\nWhat task can I help you with today?",
+        "timestamp": "2025-10-14T22:04:05.181944",
+        "metadata": {
+          "format": "markdown"
+        }
+      }
+    ],
+    "iterations": 2,
+    "duration": 60,
+    "is_active": false,
+    "started_at": "2025-10-14T22:03:53.301833",
+    "completed_at": "2025-10-14T22:04:53.794030",
+    "created_at": "2025-10-14T22:03:53.301833",
+    "updated_at": "2025-10-14T22:04:53.794030",
+    "start_ts": 1760459633.301833,
+    "end_ts": 1760459693.794039
+  },
+  "1760459733810": {
+    "id": "1760459733810",
+    "task_id": "1760459733810",
+    "user_id": "user-b231616357bb4f6ea69e938b5bb53771",
+    "name": "Quick Chat",
+    "category": "General",
+    "messages": [],
+    "iterations": 0,
+    "duration": 22,
+    "is_active": false,
+    "started_at": "2025-10-14T22:05:33.810003",
+    "completed_at": "2025-10-14T22:05:56.433653",
+    "created_at": "2025-10-14T22:05:33.810003",
+    "updated_at": "2025-10-14T22:05:56.433653",
+    "start_ts": 1760459733.810003,
+    "end_ts": 1760459756.433662
+  },
+  "1760459735533": {
+    "id": "1760459735533",
+    "task_id": "1760459735533",
+    "user_id": "user-b231616357bb4f6ea69e938b5bb53771",
+    "name": "Quick Chat",
+    "category": "General",
+    "messages": [],
+    "iterations": 0,
+    "duration": 13,
+    "is_active": false,
+    "started_at": "2025-10-14T22:05:35.533254",
+    "completed_at": "2025-10-14T22:05:49.136668",
+    "created_at": "2025-10-14T22:05:35.533254",
+    "updated_at": "2025-10-14T22:05:49.136668",
+    "start_ts": 1760459735.533254,
+    "end_ts": 1760459749.1366742
+  }
+}

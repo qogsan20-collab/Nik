@@ -1,0 +1,384 @@
+{
+  "1760366978714": {
+    "id": "1760366978714",
+    "task_id": "1760366978714",
+    "user_id": "user-c9ccb80eef3948c6989092cf6e0da676",
+    "name": "Quick Chat",
+    "category": "General",
+    "messages": [
+      {
+        "role": "user",
+        "content": "Hii",
+        "timestamp": "2025-10-13T20:19:40.749556",
+        "id": "msg-d35f4e10c760432c8558d63a058a19bc"
+      },
+      {
+        "role": "assistant",
+        "content": "Hello! How can I help you today?",
+        "timestamp": "2025-10-13T20:19:47.441917",
+        "id": "msg-818f1d53d707423f9e712edd32bd12cb"
+      },
+      {
+        "role": "user",
+        "content": "draft an email to xyz company to buy 1 product",
+        "timestamp": "2025-10-13T20:20:05.700028",
+        "id": "msg-f811f2d5692f4169950bc00122d8458f"
+      },
+      {
+        "role": "assistant",
+        "content": "Subject: Inquiry Regarding Single Product Purchase - [Your Name/Company Name]\n\nDear XYZ Company Sales Team,\n\nI am writing to express my interest in purchasing a single unit of one of your products.\n\nSpecifically, I am interested in [**Insert Specific Product Name/SKU here, e.g., \"the Model X-200 widget\" or \"your 'Eco-Smart' water bottle\"**]. If you have a specific product page or catalog link for this item, please direct me to it.\n\nCould you please provide me with the following information for purchasing a single unit:\n\n1.  **Product Price:** The current price of [Product Name/SKU].\n2.  **Payment Methods:** What payment options do you accept (e.g., credit card, bank transfer, PayPal)?\n3.  **Shipping:** The estimated shipping cost and delivery time to [Your City, State/Province, and Country, e.g., \"London, UK\" or \"New York, NY, USA\"].\n4.  **Order Process:** What are the next steps for placing an order for a single item?\n\nThank you for your time and assistance. I look forward to your prompt response.\n\nSincerely,\n\n[Your Full Name]\n[Your Email Address]\n[Your Phone Number (Optional)]",
+        "timestamp": "2025-10-13T20:20:17.623591",
+        "id": "msg-9fb9affd14804073bd1a3091eb7c0fdb"
+      },
+      {
+        "role": "user",
+        "content": "short the mail",
+        "timestamp": "2025-10-13T20:20:28.417626",
+        "id": "msg-36bf3229c1b14582a26033e65de1f3d4"
+      },
+      {
+        "role": "assistant",
+        "content": "This phrase is a bit colloquial and can be interpreted in a few ways, but the most common meaning is:\n\n**\"Make the email/message shorter.\"**\n\nIt's essentially a verbing of \"short\" to mean \"to shorten\" or \"to make brief.\"\n\nHere are some ways to rephrase it, depending on the exact context:\n\n*   **\"Shorten the email.\"** (Most direct)\n*   **\"Make the email brief.\"**\n*   **\"Keep the email concise.\"**\n*   **\"Get straight to the point in the email.\"**\n*   **\"Condense the email.\"**\n\n**Example:**\n\"I need you to short the mail before sending it to the client; they don't have much time.\"\n*(Meaning: \"I need you to shorten the email...\")*\n\nLess commonly, it could refer to **physical mail**, meaning \"reduce the amount of physical mail\" or \"cut down on postal communications.\" But in a digital context, it almost certainly means \"make the email shorter.\"",
+        "timestamp": "2025-10-13T20:20:38.390453",
+        "id": "msg-fec2e2cfd4fb48f9aa82a3a134ba0ca3"
+      }
+    ],
+    "iterations": 3,
+    "duration": 2771,
+    "is_active": false,
+    "started_at": "2025-10-13T20:19:38.714360",
+    "completed_at": "2025-10-13T21:05:50.217088",
+    "created_at": "2025-10-13T20:19:38.714360",
+    "updated_at": "2025-10-13T21:05:50.217088",
+    "start_ts": 1760366978.71436,
+    "end_ts": 1760369750.217092
+  },
+  "1760369757185": {
+    "id": "1760369757185",
+    "task_id": "1760369757185",
+    "user_id": "user-c9ccb80eef3948c6989092cf6e0da676",
+    "name": "Quick Chat",
+    "category": "General",
+    "messages": [
+      {
+        "id": "msg-f1680c678c304b568de26da52aa5183d",
+        "role": "user",
+        "content": "hii",
+        "timestamp": "2025-10-13T21:24:16.583145"
+      },
+      {
+        "id": "msg-52559015952d4e07990cd90facef726e",
+        "role": "assistant",
+        "content": "Hello! I'm QOG's task assistant, here to help you manage your tasks and projects efficiently. How can I assist you today?\n\nKey Points:\n- Ready to assist with task management.\n- Focus on project efficiency.\n\nNext Steps:\n1. Tell me what you're working on.\n2. Ask me a question about task organization.\n3. Let me know if you need help getting started.",
+        "timestamp": "2025-10-13T21:24:20.601093",
+        "metadata": {
+          "structured": {
+            "answer": "Hello! I'm QOG's task assistant, here to help you manage your tasks and projects efficiently. How can I assist you today?",
+            "key_points": [
+              "Ready to assist with task management.",
+              "Focus on project efficiency."
+            ],
+            "next_steps": [
+              "Tell me what you're working on.",
+              "Ask me a question about task organization.",
+              "Let me know if you need help getting started."
+            ]
+          },
+          "first_response": true
+        }
+      },
+      {
+        "id": "msg-a650563073354b5a8b2da2e744bb8847",
+        "role": "user",
+        "content": "write a mail to xyz company to buy xyz products",
+        "timestamp": "2025-10-13T21:24:36.693709"
+      },
+      {
+        "id": "msg-d16e39c4a4af49b5a60db3d414b5d622",
+        "role": "assistant",
+        "content": "To help you write that email, here's a template you can use. Remember to replace the bracketed `[placeholders]` with your specific details:\n\nSubject: Inquiry and Purchase Request - [Your Company Name] for [Specific Product Name/Category]\n\nDear [Contact Person Name, if known, otherwise 'XYZ Company Sales Team' or 'XYZ Company'],\n\nMy name is [Your Name] and I am reaching out from [Your Company Name/Your Organization/Myself]. We are very interested in purchasing your [Specific Product Name/Category, e.g., 'XYZ Widget Model A-123' or 'your range of XYZ industrial pumps'].\n\nCould you please provide us with the following information to facilitate our purchase:\n\n1.  Detailed product specifications and features for [Specific Product Name/Category].\n2.  Current pricing for [Specific Product Name/Category], including any bulk discounts if applicable.\n3.  Minimum order quantities (MOQ) if any.\n4.  Available shipping options to [Your Location/Country] and associated costs.\n5.  Payment terms and accepted methods.\n6.  Information on product availability and estimated delivery times.\n\nWe are looking to purchase [Quantity, e.g., 'approximately 50 units' or 'a significant quantity'] of these products. Please let us know if there is a specific sales representative we should be in contact with, or if you require any further information from our end.\n\nThank you for your time and assistance. We look forward to your prompt response and the possibility of establishing a successful business relationship.\n\nSincerely,\n[Your Name]\n[Your Title]\n[Your Company Name]\n[Your Phone Number]\n[Your Email Address]\n[Your Website (Optional)]",
+        "timestamp": "2025-10-13T21:24:43.498296",
+        "metadata": {
+          "structured": {
+            "answer": "To help you write that email, here's a template you can use. Remember to replace the bracketed `[placeholders]` with your specific details:\n\nSubject: Inquiry and Purchase Request - [Your Company Name] for [Specific Product Name/Category]\n\nDear [Contact Person Name, if known, otherwise 'XYZ Company Sales Team' or 'XYZ Company'],\n\nMy name is [Your Name] and I am reaching out from [Your Company Name/Your Organization/Myself]. We are very interested in purchasing your [Specific Product Name/Category, e.g., 'XYZ Widget Model A-123' or 'your range of XYZ industrial pumps'].\n\nCould you please provide us with the following information to facilitate our purchase:\n\n1.  Detailed product specifications and features for [Specific Product Name/Category].\n2.  Current pricing for [Specific Product Name/Category], including any bulk discounts if applicable.\n3.  Minimum order quantities (MOQ) if any.\n4.  Available shipping options to [Your Location/Country] and associated costs.\n5.  Payment terms and accepted methods.\n6.  Information on product availability and estimated delivery times.\n\nWe are looking to purchase [Quantity, e.g., 'approximately 50 units' or 'a significant quantity'] of these products. Please let us know if there is a specific sales representative we should be in contact with, or if you require any further information from our end.\n\nThank you for your time and assistance. We look forward to your prompt response and the possibility of establishing a successful business relationship.\n\nSincerely,\n[Your Name]\n[Your Title]\n[Your Company Name]\n[Your Phone Number]\n[Your Email Address]\n[Your Website (Optional)]",
+            "key_points": [
+              "Email template for purchasing products from XYZ Company.",
+              "Includes placeholders for product specifics, quantities, and contact details.",
+              "Requests essential information like pricing, shipping, and payment terms."
+            ],
+            "next_steps": [
+              "Replace all `[bracketed placeholders]` with your specific product details, quantities, and company information.",
+              "Identify a specific contact person at XYZ Company if possible to make the email more personal.",
+              "Review the email for clarity, accuracy, and completeness before sending."
+            ]
+          },
+          "first_response": false
+        }
+      },
+      {
+        "id": "msg-1fd599eba2104199b02d94becd175e18",
+        "role": "user",
+        "content": "short it",
+        "timestamp": "2025-10-13T22:38:12.485029"
+      },
+      {
+        "id": "msg-ca89666079914679b0a7256cf09b8d09",
+        "role": "assistant",
+        "content": "Here's a concise email draft for purchasing products from XYZ Company. Remember to replace the bracketed `[placeholders]` with your specific details.",
+        "timestamp": "2025-10-13T22:38:15.849839",
+        "metadata": {
+          "structured": {
+            "answer": "Here's a concise email draft for purchasing products from XYZ Company. Remember to replace the bracketed `[placeholders]` with your specific details.",
+            "key_points": [
+              "Condenses previous email for brevity.",
+              "Focuses on direct purchase inquiry.",
+              "Asks for essential product and pricing details."
+            ],
+            "next_steps": [
+              "Replace `[Your Company Name]`, `[Specific Product]`, and `[Your Contact Info]` with your details.",
+              "Send the email to the appropriate contact at XYZ Company.",
+              "Wait for their response regarding product details and pricing."
+            ]
+          },
+          "first_response": false
+        }
+      },
+      {
+        "id": "msg-4d073bce19bf4ce1b23b357bf1dbbed8",
+        "role": "user",
+        "content": "short it",
+        "timestamp": "2025-10-13T22:38:29.202784"
+      },
+      {
+        "id": "msg-75fdcec839a845108f3c41b1610bfee1",
+        "role": "assistant",
+        "content": "Here's a very short email draft for purchasing products from XYZ Company. Remember to replace the bracketed `[placeholders]` with your specific details.",
+        "timestamp": "2025-10-13T22:38:31.721776",
+        "metadata": {
+          "structured": {
+            "answer": "Here's a very short email draft for purchasing products from XYZ Company. Remember to replace the bracketed `[placeholders]` with your specific details.",
+            "key_points": [
+              "Concise email for product purchase.",
+              "Remember to replace placeholders."
+            ],
+            "next_steps": [
+              "**Subject:** Purchase Inquiry - [Specific Product Name]",
+              "**Body:**",
+              "Dear XYZ Company,",
+              "We are interested in purchasing [Specific Product Name]. Please provide pricing, availability, and ordering details.",
+              "Thank you,",
+              "[Your Name]",
+              "[Your Company]"
+            ]
+          },
+          "first_response": false
+        }
+      }
+    ],
+    "iterations": 4,
+    "duration": 88501,
+    "is_active": false,
+    "started_at": "2025-10-13T21:05:57.185117",
+    "completed_at": "2025-10-14T21:40:58.357226",
+    "created_at": "2025-10-13T21:05:57.185117",
+    "updated_at": "2025-10-14T21:40:58.357226",
+    "start_ts": 1760369757.185117,
+    "end_ts": 1760458258.357237
+  },
+  "1760369768817": {
+    "id": "1760369768817",
+    "task_id": "1760369768817",
+    "user_id": "user-c9ccb80eef3948c6989092cf6e0da676",
+    "name": "Test1",
+    "category": "Work",
+    "messages": [
+      {
+        "id": "msg-a2e773d2ef8548b3946949718627c805",
+        "role": "user",
+        "content": "Hii",
+        "timestamp": "2025-10-13T21:16:50.116876"
+      },
+      {
+        "id": "msg-4e25656a0e4342f7966312750373c688",
+        "role": "assistant",
+        "content": "Hello! I'm your QOG task assistant, ready to help you get things done. What can I assist you with today?\n\nKey Points:\n- I am available to assist you with your tasks.\n- My primary function is to provide actionable guidance.\n\nNext Steps:\n1. Please tell me what task you would like to work on.\n2. Describe the problem you are trying to solve or the goal you want to achieve.",
+        "timestamp": "2025-10-13T21:16:56.864705",
+        "metadata": {
+          "structured": {
+            "answer": "Hello! I'm your QOG task assistant, ready to help you get things done. What can I assist you with today?",
+            "key_points": [
+              "I am available to assist you with your tasks.",
+              "My primary function is to provide actionable guidance."
+            ],
+            "next_steps": [
+              "Please tell me what task you would like to work on.",
+              "Describe the problem you are trying to solve or the goal you want to achieve."
+            ]
+          }
+        }
+      },
+      {
+        "id": "msg-95aede79eab84740a85890338e59d762",
+        "role": "user",
+        "content": "draft a mail to xyz company to buy xyz products",
+        "timestamp": "2025-10-13T21:17:31.749496"
+      },
+      {
+        "id": "msg-fc7f937336a340389977d3073499c5a5",
+        "role": "assistant",
+        "content": "Subject: Inquiry Regarding [XYZ Products] - [Your Company Name]\n\nDear Sales Team,\n\nI am writing on behalf of [Your Company Name] to express our interest in purchasing your [XYZ Products]. We are looking for [briefly state your need or application, e.g., a bulk order for our upcoming project, to stock in our retail stores, for internal use].\n\nCould you please provide us with more information regarding:\n\n*   Product specifications for [specific models/types of XYZ Products, if known]?\n*   Current pricing and any available bulk discounts?\n*   Minimum order quantities (MOQ)?\n*   Estimated lead times and shipping options to [Your Location]?\n*   Payment terms?\n\nWe are keen to understand how your [XYZ Products] can meet our requirements. Please let us know if you require any further information from our side.\n\nThank you for your time and assistance. We look forward to your prompt response.\n\nSincerely,\n\n[Your Name]\n[Your Title]\n[Your Company Name]\n[Your Phone Number]\n[Your Email Address]\n\nKey Points:\n- The email clearly states the purpose: inquiring about purchasing XYZ Products.\n- It requests essential information like pricing, availability, and shipping details.\n- The tone is professional and concise, suitable for a business inquiry.\n- It includes placeholders for personalization, such as your company name, specific product details, and contact information.\n\nNext Steps:\n1. Replace `[Your Company Name]`, `[XYZ Products]`, `[briefly state your need or application]`, `[specific models/types of XYZ Products, if known]`, `[Your Location]`, and your contact details with your specific information.\n2. Review the draft to ensure all necessary details are requested and the message is clear.\n3. Send the email to the appropriate contact at XYZ Company, or their general sales inquiry address.",
+        "timestamp": "2025-10-13T21:17:39.219603",
+        "metadata": {
+          "structured": {
+            "answer": "Subject: Inquiry Regarding [XYZ Products] - [Your Company Name]\n\nDear Sales Team,\n\nI am writing on behalf of [Your Company Name] to express our interest in purchasing your [XYZ Products]. We are looking for [briefly state your need or application, e.g., a bulk order for our upcoming project, to stock in our retail stores, for internal use].\n\nCould you please provide us with more information regarding:\n\n*   Product specifications for [specific models/types of XYZ Products, if known]?\n*   Current pricing and any available bulk discounts?\n*   Minimum order quantities (MOQ)?\n*   Estimated lead times and shipping options to [Your Location]?\n*   Payment terms?\n\nWe are keen to understand how your [XYZ Products] can meet our requirements. Please let us know if you require any further information from our side.\n\nThank you for your time and assistance. We look forward to your prompt response.\n\nSincerely,\n\n[Your Name]\n[Your Title]\n[Your Company Name]\n[Your Phone Number]\n[Your Email Address]",
+            "key_points": [
+              "The email clearly states the purpose: inquiring about purchasing XYZ Products.",
+              "It requests essential information like pricing, availability, and shipping details.",
+              "The tone is professional and concise, suitable for a business inquiry.",
+              "It includes placeholders for personalization, such as your company name, specific product details, and contact information."
+            ],
+            "next_steps": [
+              "Replace `[Your Company Name]`, `[XYZ Products]`, `[briefly state your need or application]`, `[specific models/types of XYZ Products, if known]`, `[Your Location]`, and your contact details with your specific information.",
+              "Review the draft to ensure all necessary details are requested and the message is clear.",
+              "Send the email to the appropriate contact at XYZ Company, or their general sales inquiry address."
+            ]
+          }
+        }
+      },
+      {
+        "id": "msg-1f90b143b4d44b248ab1914eb8272f84",
+        "role": "user",
+        "content": "short it",
+        "timestamp": "2025-10-13T21:18:06.249196"
+      },
+      {
+        "id": "msg-c410997e09a94b279f24a373b6565628",
+        "role": "assistant",
+        "content": "Subject: Inquiry: [XYZ Products] - [Your Company Name]\n\nDear Sales Team,\n\nOur company, [Your Company Name], is interested in purchasing your [XYZ Products] for [briefly state your need or application].\n\nCould you please provide information on:\n*   Product specifications and pricing?\n*   Bulk discounts and MOQs?\n*   Lead times and shipping to [Your Location]?\n\nWe look forward to your prompt response.\n\nSincerely,\n[Your Name]\n[Your Company Name]\n[Your Email Address]\n\nKey Points:\n- The shortened email retains the core purpose of inquiring about XYZ Products.\n- It concisely lists the essential questions regarding specifications, pricing, and logistics.\n- Placeholders remain for personalization, ensuring it's still actionable for your specific needs.\n\nNext Steps:\n1. Replace `[Your Company Name]`, `[XYZ Products]`, `[briefly state your need or application]`, `[Your Location]`, and your contact details with your specific information.\n2. Review the condensed draft to ensure it conveys all critical information you wish to request.\n3. Send the email to the appropriate contact at XYZ Company.",
+        "timestamp": "2025-10-13T21:18:10.475562",
+        "metadata": {
+          "structured": {
+            "answer": "Subject: Inquiry: [XYZ Products] - [Your Company Name]\n\nDear Sales Team,\n\nOur company, [Your Company Name], is interested in purchasing your [XYZ Products] for [briefly state your need or application].\n\nCould you please provide information on:\n*   Product specifications and pricing?\n*   Bulk discounts and MOQs?\n*   Lead times and shipping to [Your Location]?\n\nWe look forward to your prompt response.\n\nSincerely,\n[Your Name]\n[Your Company Name]\n[Your Email Address]",
+            "key_points": [
+              "The shortened email retains the core purpose of inquiring about XYZ Products.",
+              "It concisely lists the essential questions regarding specifications, pricing, and logistics.",
+              "Placeholders remain for personalization, ensuring it's still actionable for your specific needs."
+            ],
+            "next_steps": [
+              "Replace `[Your Company Name]`, `[XYZ Products]`, `[briefly state your need or application]`, `[Your Location]`, and your contact details with your specific information.",
+              "Review the condensed draft to ensure it conveys all critical information you wish to request.",
+              "Send the email to the appropriate contact at XYZ Company."
+            ]
+          }
+        }
+      }
+    ],
+    "iterations": 3,
+    "duration": 833,
+    "is_active": false,
+    "started_at": "2025-10-13T21:06:08.817133",
+    "completed_at": "2025-10-13T21:20:01.878178",
+    "created_at": "2025-10-13T21:06:08.817133",
+    "updated_at": "2025-10-13T21:20:01.878178",
+    "start_ts": 1760369768.817133,
+    "end_ts": 1760370601.8781838
+  },
+  "1760458270063": {
+    "id": "1760458270063",
+    "task_id": "1760458270063",
+    "user_id": "user-c9ccb80eef3948c6989092cf6e0da676",
+    "name": "Quick Chat",
+    "category": "General",
+    "messages": [],
+    "iterations": 0,
+    "duration": 0,
+    "is_active": true,
+    "started_at": "2025-10-14T21:41:10.063162",
+    "completed_at": null,
+    "created_at": "2025-10-14T21:41:10.063162",
+    "updated_at": "2025-10-14T21:41:10.063162",
+    "start_ts": 1760458270.063162,
+    "end_ts": null
+  },
+  "1760458270477": {
+    "id": "1760458270477",
+    "task_id": "1760458270477",
+    "user_id": "user-c9ccb80eef3948c6989092cf6e0da676",
+    "name": "Quick Chat",
+    "category": "General",
+    "messages": [
+      {
+        "id": "msg-e31915fa723247e986b1fd2f79692a5a",
+        "role": "user",
+        "content": "Hii , I am Nikhil",
+        "timestamp": "2025-10-14T21:48:11.484792"
+      },
+      {
+        "id": "msg-e40cc12ca6b44a42bb3f2de44edb8af6",
+        "role": "assistant",
+        "content": "Hi Nikhil! It's great to meet you.\n\nHow can I assist you today? Please let me know what task you'd like to work on, or if you have any questions.",
+        "timestamp": "2025-10-14T21:48:16.292761",
+        "metadata": {
+          "format": "markdown"
+        }
+      },
+      {
+        "id": "msg-b52936a16646409eb39486f3bb874d78",
+        "role": "user",
+        "content": "who am i?",
+        "timestamp": "2025-10-14T21:48:25.246648"
+      },
+      {
+        "id": "msg-1dec86fd2f294492b3bb705c7ad809a2",
+        "role": "assistant",
+        "content": "As an AI assistant, I don't have access to your personal identity or background information.\n\nFrom our conversation, I know you as **Nikhil**, the user currently interacting with me.\n\nIf you're asking about your role in a specific task or project, please provide some context, and I'll do my best to help you understand your part. What kind of task are we working on?",
+        "timestamp": "2025-10-14T21:48:28.750169",
+        "metadata": {
+          "format": "markdown"
+        }
+      }
+    ],
+    "iterations": 2,
+    "duration": 456,
+    "is_active": false,
+    "started_at": "2025-10-14T21:41:10.477709",
+    "completed_at": "2025-10-14T21:48:47.215009",
+    "created_at": "2025-10-14T21:41:10.477709",
+    "updated_at": "2025-10-14T21:48:47.215009",
+    "start_ts": 1760458270.477709,
+    "end_ts": 1760458727.215013
+  },
+  "1760458789600": {
+    "id": "1760458789600",
+    "task_id": "1760458789600",
+    "user_id": "user-c9ccb80eef3948c6989092cf6e0da676",
+    "name": "Quick Chat",
+    "category": "General",
+    "messages": [
+      {
+        "id": "msg-a249d317dabd490398fc4af1c2e9b71d",
+        "role": "user",
+        "content": "Hi",
+        "timestamp": "2025-10-14T21:49:52.933897"
+      },
+      {
+        "id": "msg-6c6d29ea956e4ab5a14c7cd1be580807",
+        "role": "assistant",
+        "content": "Hello! I'm QOG's task assistant.\n\nHow can I help you today? Please tell me what task you'd like to accomplish.",
+        "timestamp": "2025-10-14T21:49:55.009763",
+        "metadata": {
+          "format": "markdown"
+        }
+      }
+    ],
+    "iterations": 1,
+    "duration": 5,
+    "is_active": true,
+    "started_at": "2025-10-14T21:49:49.600405",
+    "completed_at": null,
+    "created_at": "2025-10-14T21:49:49.600405",
+    "updated_at": "2025-10-14T21:49:55.009763",
+    "start_ts": 1760458789.600405,
+    "end_ts": null
+  }
+}

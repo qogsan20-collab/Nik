@@ -1,0 +1,109 @@
+{
+  "1760168702661": {
+    "id": "1760168702661",
+    "task_id": "1760168702661",
+    "user_id": "user-seed-nikhil31",
+    "name": "Quick Chat",
+    "category": "General",
+    "messages": [
+      {
+        "role": "user",
+        "content": "hii , i am nikhil",
+        "timestamp": "2025-10-11T13:15:07.704817",
+        "id": "msg-5903a3a1d80049e399a6db5a72dd3f7a"
+      },
+      {
+        "role": "assistant",
+        "content": "Hi Nikhil! Nice to meet you.\n\nHow can I help you today?",
+        "timestamp": "2025-10-11T13:15:12.396831",
+        "id": "msg-dbeaac83377a4154a2d015216b3c5a19"
+      },
+      {
+        "role": "user",
+        "content": "what is my name",
+        "timestamp": "2025-10-11T13:15:20.310886",
+        "id": "msg-274bd3c078084ce1814a98b3380f01a2"
+      },
+      {
+        "role": "assistant",
+        "content": "As an AI, I don't know your name. I don't have access to personal information about you unless you choose to tell me.",
+        "timestamp": "2025-10-11T13:15:22.100204",
+        "id": "msg-66ed29231ec9444d811320749444cff4"
+      }
+    ],
+    "iterations": 2,
+    "duration": 290862,
+    "is_active": false,
+    "started_at": "2025-10-11T13:15:02.661683",
+    "completed_at": "2025-10-14T22:02:45.003145",
+    "created_at": "2025-10-11T13:15:02.661683",
+    "updated_at": "2025-10-14T22:02:45.003145",
+    "start_ts": 1760168702.661683,
+    "end_ts": 1760459565.0031528
+  },
+  "1760556400903": {
+    "id": "1760556400903",
+    "task_id": "1760556400903",
+    "user_id": "user-seed-nikhil31",
+    "name": "Quick Chat",
+    "category": "General",
+    "messages": [],
+    "iterations": 0,
+    "duration": 0,
+    "is_active": true,
+    "started_at": "2025-10-16T00:56:40.903226",
+    "completed_at": null,
+    "created_at": "2025-10-16T00:56:40.903226",
+    "updated_at": "2025-10-16T00:56:40.903226",
+    "start_ts": 1760556400.903226,
+    "end_ts": null
+  },
+  "1760556424538": {
+    "id": "1760556424538",
+    "task_id": "1760556424538",
+    "user_id": "user-seed-nikhil31",
+    "name": "Prj 1",
+    "category": "Work",
+    "messages": [
+      {
+        "id": "msg-7d06342554d343e9957a988af50f636b",
+        "role": "user",
+        "content": "Hiii\\",
+        "timestamp": "2025-10-16T00:57:09.894383"
+      },
+      {
+        "id": "msg-ffc582a3c2824fd8947ab90e8e45ac1e",
+        "role": "assistant",
+        "content": "Hi there! I'm your QOG task assistant. I'm ready to help you with actionable guidance.\n\nWhat can I assist you with today?",
+        "timestamp": "2025-10-16T00:57:12.848892",
+        "metadata": {
+          "format": "markdown"
+        }
+      },
+      {
+        "id": "msg-81e1ee25838247a698c506b68bc98b22",
+        "role": "user",
+        "content": "ye ekr am kr",
+        "timestamp": "2025-10-16T00:57:18.534282"
+      },
+      {
+        "id": "msg-14e09069b8f64c1d8279a02336affc41",
+        "role": "assistant",
+        "content": "\"Ye ek kaam kar\" translates to \"Do this one thing\" or \"Do one task.\"\n\nI'm ready! Please tell me what task you'd like me to help you with.",
+        "timestamp": "2025-10-16T00:57:21.306175",
+        "metadata": {
+          "format": "markdown"
+        }
+      }
+    ],
+    "iterations": 2,
+    "duration": 212,
+    "is_active": true,
+    "started_at": "2025-10-16T00:57:04.538705",
+    "completed_at": null,
+    "created_at": "2025-10-16T00:57:04.538705",
+    "updated_at": "2025-10-16T00:57:21.306175",
+    "start_ts": 1760556424.538705,
+    "end_ts": null
+  }
+}
