@@ -1,0 +1,76 @@
+{
+  "user-1c89ca72a53e4f1a80bddb4c677e2f79": {
+    "completed": true,
+    "completed_at": "2025-10-16T06:21:37.318861",
+    "answers": {
+      "CL1": [
+        "Occasionally",
+        "Almost never"
+      ],
+      "CL2": [
+        "I analyze every angle",
+        "I ask for input"
+      ],
+      "CL3": [
+        "Focus and adaptability",
+        "Confidence with AI collaboration"
+      ]
+    },
+    "score": {
+      "overall": 0.0,
+      "likert_mean": null,
+      "mcq_mean": null,
+      "likert_count": 0,
+      "mcq_count": 0
+    }
+  },
+  "user-b4acd2e4782b4889a750f234164e5050": {
+    "completed": true,
+    "completed_at": "2025-10-17T06:00:36.344650",
+    "answers": {
+      "CL1": [
+        "Every day"
+      ],
+      "CL2": [
+        "I trust my instincts"
+      ],
+      "CL3": [
+        "Creative reasoning"
+      ]
+    },
+    "score": {
+      "overall": 0.0,
+      "likert_mean": null,
+      "mcq_mean": null,
+      "likert_count": 0,
+      "mcq_count": 0
+    }
+  },
+  "user-31b990e701b74050b15d7566ba00de96": {
+    "completed": true,
+    "completed_at": "2025-10-17T07:47:27.603690",
+    "answers": {
+      "CL1": [
+        "A few times a week"
+      ],
+      "CL2": [
+        "I analyze every angle",
+        "I ask for input",
+        "I trust my instincts"
+      ],
+      "CL3": [
+        "Confidence with AI collaboration",
+        "Decision clarity",
+        "Creative reasoning",
+        "Focus and adaptability"
+      ]
+    },
+    "score": {
+      "overall": 0.0,
+      "likert_mean": null,
+      "mcq_mean": null,
+      "likert_count": 0,
+      "mcq_count": 0
+    }
+  }
+}

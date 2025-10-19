@@ -1,0 +1,1582 @@
+[
+  {
+    "timestamp": "2025-10-03T19:28:07.046046",
+    "task_id": null,
+    "answers": {
+      "q2": 4,
+      "q3": "hjkkj"
+    },
+    "iterations": 3,
+    "duration": 18,
+    "context": "reflection",
+    "task_meta": {}
+  },
+  {
+    "timestamp": "2025-10-03T20:36:44.026622",
+    "task_id": null,
+    "answers": {
+      "q1": [
+        "Spot clues and make a bigger picture",
+        "Test whether it logically followed a rule"
+      ],
+      "q2": 3,
+      "q3": "nik"
+    },
+    "iterations": 2,
+    "duration": 30,
+    "context": "reflection",
+    "task_meta": {}
+  },
+  {
+    "timestamp": "2025-10-03T20:39:32.991660",
+    "task_id": null,
+    "answers": {},
+    "iterations": 1,
+    "duration": 16,
+    "context": "reflection",
+    "task_meta": {}
+  },
+  {
+    "timestamp": "2025-10-03T20:43:18.858861",
+    "task_id": null,
+    "answers": {
+      "q1": [
+        "Test whether it logically followed a rule",
+        "Spot clues and make a bigger picture"
+      ],
+      "q2": 4
+    },
+    "iterations": 1,
+    "duration": 16,
+    "context": "reflection",
+    "task_meta": {}
+  },
+  {
+    "timestamp": "2025-10-05T18:11:18.472471",
+    "task_id": null,
+    "answers": {
+      "G5": "Copied it directly without much modification (+1)",
+      "D5": "Compared it to errors I\u2019ve seen in other systems (+1)",
+      "E5": "Chose whichever matched my existing view"
+    },
+    "iterations": 2,
+    "duration": 15,
+    "score": {
+      "overall": 66.67,
+      "likert_mean": null,
+      "mcq_mean": 66.67,
+      "likert_count": 0,
+      "mcq_count": 3
+    },
+    "context": "reflection",
+    "task_meta": {}
+  },
+  {
+    "timestamp": "2025-10-05T19:41:37.643560",
+    "task_id": null,
+    "answers": {
+      "F1": 4,
+      "D5": "Compared it to errors I\u2019ve seen in other systems (+1)"
+    },
+    "iterations": 1,
+    "duration": 3,
+    "score": {
+      "overall": 87.5,
+      "likert_mean": 75.0,
+      "mcq_mean": 100.0,
+      "likert_count": 1,
+      "mcq_count": 1
+    },
+    "context": "reflection",
+    "task_meta": {}
+  },
+  {
+    "timestamp": "2025-10-05T19:58:43.860237",
+    "task_id": null,
+    "answers": {
+      "E5": "Ignored the conflict",
+      "F5": "Dismissed the feedback"
+    },
+    "iterations": 2,
+    "duration": 15,
+    "score": {
+      "overall": 0.0,
+      "likert_mean": null,
+      "mcq_mean": 0.0,
+      "likert_count": 0,
+      "mcq_count": 2
+    },
+    "context": "reflection",
+    "task_meta": {}
+  },
+  {
+    "timestamp": "2025-10-05T20:01:12.493363",
+    "task_id": null,
+    "answers": {
+      "B5": "Applied it directly to my own situation (+1)",
+      "F2": 1,
+      "A1": 1
+    },
+    "iterations": 3,
+    "duration": 48,
+    "score": {
+      "overall": 50.0,
+      "likert_mean": 0.0,
+      "mcq_mean": 100.0,
+      "likert_count": 2,
+      "mcq_count": 1
+    },
+    "context": "reflection",
+    "task_meta": {}
+  },
+  {
+    "timestamp": "2025-10-05T20:03:02.093190",
+    "task_id": null,
+    "answers": {
+      "A3": 5,
+      "B1": 5,
+      "F2": 5
+    },
+    "iterations": 1,
+    "duration": 3,
+    "score": {
+      "overall": 100.0,
+      "likert_mean": 100.0,
+      "mcq_mean": null,
+      "likert_count": 3,
+      "mcq_count": 0
+    },
+    "context": "reflection",
+    "task_meta": {}
+  },
+  {
+    "timestamp": "2025-10-05T20:04:16.092564",
+    "task_id": null,
+    "answers": {
+      "A1": 1,
+      "F2": 1,
+      "I3": 1
+    },
+    "iterations": 1,
+    "duration": 9,
+    "score": {
+      "overall": 0.0,
+      "likert_mean": 0.0,
+      "mcq_mean": null,
+      "likert_count": 3,
+      "mcq_count": 0
+    },
+    "context": "reflection",
+    "task_meta": {}
+  },
+  {
+    "timestamp": "2025-10-09T17:18:27.613650",
+    "task_id": null,
+    "answers": {
+      "E2": 5,
+      "D1": 2,
+      "I4": "Partially checked but used it",
+      "F1": 4,
+      "A4": "Wait until I had more data before deciding",
+      "A3": 5,
+      "F5": "Dismissed the feedback",
+      "F2": 5,
+      "I1": 5,
+      "E3": 3
+    },
+    "iterations": 0,
+    "duration": 0,
+    "score": {
+      "overall": 39.29,
+      "likert_mean": 78.57,
+      "mcq_mean": 0.0,
+      "likert_count": 7,
+      "mcq_count": 3
+    },
+    "context": "baseline",
+    "task_meta": {}
+  },
+  {
+    "timestamp": "2025-10-09T17:19:15.257603",
+    "task_id": null,
+    "answers": {
+      "B5": "Ignored it until I had confirmation",
+      "A4": "Wait until I had more data before deciding"
+    },
+    "iterations": 5,
+    "duration": 18,
+    "score": {
+      "overall": 0.0,
+      "likert_mean": null,
+      "mcq_mean": 0.0,
+      "likert_count": 0,
+      "mcq_count": 2
+    },
+    "context": "reflection",
+    "task_meta": {}
+  },
+  {
+    "timestamp": "2025-10-09T17:53:39.860930",
+    "task_id": null,
+    "answers": {},
+    "iterations": 2,
+    "duration": 169,
+    "score": {
+      "overall": 0.0,
+      "likert_mean": null,
+      "mcq_mean": null,
+      "likert_count": 0,
+      "mcq_count": 0
+    },
+    "context": "reflection",
+    "task_meta": {}
+  },
+  {
+    "timestamp": "2025-10-09T18:35:07.390579",
+    "task_id": null,
+    "answers": {
+      "F3": 5,
+      "D4": "Drop the question and move on",
+      "A3": 5,
+      "F1": 5,
+      "D5": "Compared it to errors I\u2019ve seen in other systems (+1)",
+      "I1": 5,
+      "E3": 5,
+      "C5": "Ignore most of the detail",
+      "E4": "Evaluated whether it fit my context (+1)",
+      "I4": "Partially checked but used it"
+    },
+    "iterations": 0,
+    "duration": 0,
+    "score": {
+      "overall": 70.0,
+      "likert_mean": 100.0,
+      "mcq_mean": 40.0,
+      "likert_count": 5,
+      "mcq_count": 5
+    },
+    "context": "baseline",
+    "task_meta": {}
+  },
+  {
+    "timestamp": "2025-10-09T18:40:02.276719",
+    "task_id": null,
+    "answers": {
+      "C4": "Try everything at once",
+      "C1": 5,
+      "D3": 2,
+      "E4": "Passed it along without checking",
+      "B2": 1,
+      "B1": 2,
+      "A3": 2,
+      "J3": 2,
+      "J5": "Easily (+1)",
+      "A1": 2
+    },
+    "iterations": 0,
+    "duration": 0,
+    "score": {
+      "overall": 32.74,
+      "likert_mean": 32.14,
+      "mcq_mean": 33.33,
+      "likert_count": 7,
+      "mcq_count": 3
+    },
+    "context": "baseline",
+    "task_meta": {}
+  },
+  {
+    "timestamp": "2025-10-09T18:40:32.822102",
+    "task_id": null,
+    "answers": {
+      "G5": "Used it only as inspiration",
+      "A4": "Wait until I had more data before deciding"
+    },
+    "iterations": 1,
+    "duration": 6,
+    "score": {
+      "overall": 0.0,
+      "likert_mean": null,
+      "mcq_mean": 0.0,
+      "likert_count": 0,
+      "mcq_count": 2
+    },
+    "context": "reflection",
+    "task_meta": {}
+  },
+  {
+    "timestamp": "2025-10-10T21:11:51.026873",
+    "task_id": null,
+    "answers": {
+      "C5": "Skim quickly and move on",
+      "G4": "Avoid using AI for this type of task",
+      "F3": 4,
+      "G5": "Adapted it to my context",
+      "A4": "Wait until I had more data before deciding",
+      "A1": 3,
+      "D3": 3,
+      "D2": 3,
+      "C3": 3,
+      "B1": 3
+    },
+    "iterations": 0,
+    "duration": 0,
+    "score": {
+      "overall": 27.08,
+      "likert_mean": 54.17,
+      "mcq_mean": 0.0,
+      "likert_count": 6,
+      "mcq_count": 4
+    },
+    "context": "baseline",
+    "task_meta": {}
+  },
+  {
+    "timestamp": "2025-10-10T21:15:22.640748",
+    "task_id": null,
+    "answers": {
+      "E5": "Weighed both sides and looked for more evidence (+1)",
+      "F2": 4,
+      "A4": "Infer a general principle from those answers (+1)",
+      "J1": 4,
+      "J2": 2,
+      "J5": "With some difficulty",
+      "C2": 4,
+      "I4": "Partially checked but used it",
+      "C4": "Wait for training materials",
+      "A3": 4
+    },
+    "iterations": 0,
+    "duration": 0,
+    "score": {
+      "overall": 52.5,
+      "likert_mean": 65.0,
+      "mcq_mean": 40.0,
+      "likert_count": 5,
+      "mcq_count": 5
+    },
+    "context": "baseline",
+    "task_meta": {}
+  },
+  {
+    "timestamp": "2025-10-10T21:16:10.769687",
+    "task_id": null,
+    "answers": {
+      "A1": 4,
+      "I4": "Double-checked thoroughly before using it",
+      "J1": 4
+    },
+    "iterations": 1,
+    "duration": 5,
+    "score": {
+      "overall": 37.5,
+      "likert_mean": 75.0,
+      "mcq_mean": 0.0,
+      "likert_count": 2,
+      "mcq_count": 1
+    },
+    "context": "reflection",
+    "task_meta": {}
+  },
+  {
+    "timestamp": "2025-10-10T21:17:49.629781",
+    "task_id": null,
+    "answers": {
+      "B5": "Ignored it until I had confirmation"
+    },
+    "iterations": 1,
+    "duration": 39,
+    "score": {
+      "overall": 0.0,
+      "likert_mean": null,
+      "mcq_mean": 0.0,
+      "likert_count": 0,
+      "mcq_count": 1
+    },
+    "context": "reflection",
+    "task_meta": {
+      "name": "nhhj",
+      "category": "Project"
+    }
+  },
+  {
+    "timestamp": "2025-10-10T22:10:59.553136",
+    "task_id": null,
+    "answers": {
+      "CL1": [
+        "A few times a week",
+        "Occasionally"
+      ],
+      "CL2": [
+        "I analyze every angle",
+        "I ask for input"
+      ],
+      "CL3": [
+        "Confidence with AI collaboration",
+        "Focus and adaptability"
+      ]
+    },
+    "iterations": 0,
+    "duration": 0,
+    "score": {
+      "overall": 0.0,
+      "likert_mean": null,
+      "mcq_mean": null,
+      "likert_count": 0,
+      "mcq_count": 0
+    },
+    "context": "baseline",
+    "task_meta": {}
+  },
+  {
+    "timestamp": "2025-10-10T22:36:37.919660",
+    "task_id": null,
+    "answers": {
+      "CL1": [
+        "Almost never"
+      ],
+      "CL3": [
+        "Focus and adaptability"
+      ]
+    },
+    "iterations": 0,
+    "duration": 0,
+    "task_meta": {},
+    "score": {
+      "overall": 0.0,
+      "likert_mean": null,
+      "mcq_mean": null,
+      "likert_count": 0,
+      "mcq_count": 0
+    },
+    "context": "baseline"
+  },
+  {
+    "timestamp": "2025-10-10T23:02:22.313225",
+    "task_id": null,
+    "answers": {
+      "CL1": [
+        "Occasionally"
+      ]
+    },
+    "iterations": 0,
+    "duration": 0,
+    "task_meta": {},
+    "score": {
+      "overall": 0.0,
+      "likert_mean": null,
+      "mcq_mean": null,
+      "likert_count": 0,
+      "mcq_count": 0
+    },
+    "context": "baseline"
+  },
+  {
+    "timestamp": "2025-10-10T23:19:16.550136",
+    "task_id": null,
+    "answers": {},
+    "iterations": 0,
+    "duration": 0,
+    "task_meta": {},
+    "score": null,
+    "context": "baseline"
+  },
+  {
+    "timestamp": "2025-10-10T23:23:46.725313",
+    "task_id": null,
+    "answers": {
+      "J5": "With some difficulty",
+      "B4": "Disregard the rule unless someone else confirmed it",
+      "E5": "Weighed both sides and looked for more evidence (+1)"
+    },
+    "iterations": 1,
+    "duration": 5,
+    "score": {
+      "overall": 33.33,
+      "likert_mean": null,
+      "mcq_mean": 33.33,
+      "likert_count": 0,
+      "mcq_count": 3
+    },
+    "context": "reflection",
+    "task_meta": {}
+  },
+  {
+    "timestamp": "2025-10-10T23:23:56.850646",
+    "task_id": null,
+    "answers": {
+      "CL1": [
+        "A few times a week"
+      ],
+      "CL2": [
+        "Jump in and refine as I go"
+      ],
+      "CL3": [
+        "Confidence with AI collaboration"
+      ]
+    },
+    "iterations": 0,
+    "duration": 0,
+    "task_meta": {},
+    "score": {
+      "overall": 0.0,
+      "likert_mean": null,
+      "mcq_mean": null,
+      "likert_count": 0,
+      "mcq_count": 0
+    },
+    "context": "baseline"
+  },
+  {
+    "timestamp": "2025-10-10T23:26:51.443533",
+    "task_id": null,
+    "answers": {
+      "B3": 5,
+      "B1": 5,
+      "J1": 5
+    },
+    "iterations": 1,
+    "duration": 6,
+    "score": {
+      "overall": 100.0,
+      "likert_mean": 100.0,
+      "mcq_mean": null,
+      "likert_count": 3,
+      "mcq_count": 0
+    },
+    "context": "reflection",
+    "task_meta": {}
+  },
+  {
+    "timestamp": "2025-10-10T23:27:00.980889",
+    "task_id": null,
+    "answers": {
+      "J5": "With some difficulty",
+      "I1": 4,
+      "C5": "Break it into smaller sections and review carefully (+1)"
+    },
+    "iterations": 1,
+    "duration": 6,
+    "score": {
+      "overall": 62.5,
+      "likert_mean": 75.0,
+      "mcq_mean": 50.0,
+      "likert_count": 1,
+      "mcq_count": 2
+    },
+    "context": "reflection",
+    "task_meta": {}
+  },
+  {
+    "timestamp": "2025-10-11T00:00:14.796029",
+    "user_id": "user-seed-nikhil31",
+    "task_id": null,
+    "answers": {
+      "CL1": [
+        "Every day"
+      ],
+      "CL2": [
+        "I ask for input",
+        "I analyze every angle",
+        "I trust my instincts"
+      ],
+      "CL3": [
+        "Decision clarity",
+        "Confidence with AI collaboration"
+      ]
+    },
+    "iterations": 0,
+    "duration": 0,
+    "task_meta": {},
+    "context": "baseline",
+    "score": {
+      "overall": 0.0,
+      "likert_mean": null,
+      "mcq_mean": null,
+      "likert_count": 0,
+      "mcq_count": 0
+    }
+  },
+  {
+    "timestamp": "2025-10-11T00:01:16.263593",
+    "user_id": "user-seed-nikhil31",
+    "task_id": "1760121023675",
+    "answers": {
+      "F2": 4,
+      "A4": "Wait until I had more data before deciding",
+      "I4": "Partially checked but used it"
+    },
+    "iterations": 2,
+    "duration": 22,
+    "score": {
+      "overall": 37.5,
+      "likert_mean": 75.0,
+      "mcq_mean": 0.0,
+      "likert_count": 1,
+      "mcq_count": 2
+    },
+    "context": "reflection",
+    "task_meta": {
+      "id": "1760121023675",
+      "name": "One",
+      "category": "Work"
+    }
+  },
+  {
+    "timestamp": "2025-10-11T00:02:22.689377",
+    "user_id": "user-seed-nikhil31",
+    "task_id": "1760121130788",
+    "answers": {
+      "J5": "With some difficulty",
+      "C5": "Skim quickly and move on",
+      "C2": 4
+    },
+    "iterations": 1,
+    "duration": 6,
+    "score": {
+      "overall": 37.5,
+      "likert_mean": 75.0,
+      "mcq_mean": 0.0,
+      "likert_count": 1,
+      "mcq_count": 2
+    },
+    "context": "reflection",
+    "task_meta": {
+      "id": "1760121130788",
+      "name": "Two",
+      "category": "General"
+    }
+  },
+  {
+    "timestamp": "2025-10-11T00:03:59.805713",
+    "user_id": "user-c9ccb80eef3948c6989092cf6e0da676",
+    "task_id": null,
+    "answers": {
+      "CL1": [
+        "A few times a week"
+      ],
+      "CL2": [
+        "Jump in and refine as I go"
+      ],
+      "CL3": [
+        "Focus and adaptability"
+      ]
+    },
+    "iterations": 0,
+    "duration": 0,
+    "task_meta": {},
+    "context": "baseline",
+    "score": {
+      "overall": 0.0,
+      "likert_mean": null,
+      "mcq_mean": null,
+      "likert_count": 0,
+      "mcq_count": 0
+    }
+  },
+  {
+    "timestamp": "2025-10-11T00:04:23.572916",
+    "user_id": "user-c9ccb80eef3948c6989092cf6e0da676",
+    "task_id": "1760121250526",
+    "answers": {
+      "C5": "Ignore most of the detail",
+      "G4": "Ask AI and use its full response (+1)",
+      "C4": "Wait for training materials"
+    },
+    "iterations": 1,
+    "duration": 6,
+    "score": {
+      "overall": 33.33,
+      "likert_mean": null,
+      "mcq_mean": 33.33,
+      "likert_count": 0,
+      "mcq_count": 3
+    },
+    "context": "reflection",
+    "task_meta": {
+      "id": "1760121250526",
+      "name": "one",
+      "category": "General"
+    }
+  },
+  {
+    "timestamp": "2025-10-11T00:04:48.376462",
+    "user_id": "user-c9ccb80eef3948c6989092cf6e0da676",
+    "task_id": "1760121250526",
+    "answers": {
+      "E5": "Weighed both sides and looked for more evidence (+1)",
+      "D1": 5,
+      "C3": 5
+    },
+    "iterations": 1,
+    "duration": 30,
+    "score": {
+      "overall": 100.0,
+      "likert_mean": 100.0,
+      "mcq_mean": 100.0,
+      "likert_count": 2,
+      "mcq_count": 1
+    },
+    "context": "reflection",
+    "task_meta": {
+      "id": "1760121250526",
+      "name": "one",
+      "category": "General"
+    }
+  },
+  {
+    "timestamp": "2025-10-11T00:05:15.606501",
+    "user_id": "user-c9ccb80eef3948c6989092cf6e0da676",
+    "task_id": "1760121250526",
+    "answers": {
+      "A1": 4,
+      "B5": "Ignored it until I had confirmation",
+      "A2": 4
+    },
+    "iterations": 1,
+    "duration": 39,
+    "score": {
+      "overall": 37.5,
+      "likert_mean": 75.0,
+      "mcq_mean": 0.0,
+      "likert_count": 2,
+      "mcq_count": 1
+    },
+    "context": "reflection",
+    "task_meta": {
+      "id": "1760121250526",
+      "name": "one",
+      "category": "General"
+    }
+  },
+  {
+    "timestamp": "2025-10-11T00:07:52.717601",
+    "user_id": "user-c9ccb80eef3948c6989092cf6e0da676",
+    "task_id": "1760121346030",
+    "answers": {
+      "F3": 2,
+      "G5": "Copied it directly without much modification (+1)",
+      "G1": 2
+    },
+    "iterations": 1,
+    "duration": 116,
+    "score": {
+      "overall": 62.5,
+      "likert_mean": 25.0,
+      "mcq_mean": 100.0,
+      "likert_count": 2,
+      "mcq_count": 1
+    },
+    "context": "reflection",
+    "task_meta": {
+      "id": "1760121346030",
+      "name": "Quick Chat",
+      "category": "General"
+    }
+  },
+  {
+    "timestamp": "2025-10-11T00:08:18.728357",
+    "user_id": "user-c9ccb80eef3948c6989092cf6e0da676",
+    "task_id": "1760121486588",
+    "answers": {
+      "C3": 5,
+      "G3": 5,
+      "B4": "Disregard the rule unless someone else confirmed it"
+    },
+    "iterations": 0,
+    "duration": 0,
+    "score": {
+      "overall": 50.0,
+      "likert_mean": 100.0,
+      "mcq_mean": 0.0,
+      "likert_count": 2,
+      "mcq_count": 1
+    },
+    "context": "reflection",
+    "task_meta": {
+      "id": "1760121486588",
+      "name": "Quick Chat",
+      "category": "General"
+    }
+  },
+  {
+    "timestamp": "2025-10-13T21:05:48.923562",
+    "user_id": "user-c9ccb80eef3948c6989092cf6e0da676",
+    "task_id": "1760366978714",
+    "answers": {
+      "I5": "Balanced both and evaluated",
+      "J3": 4,
+      "E5": "Weighed both sides and looked for more evidence (+1)"
+    },
+    "iterations": 3,
+    "duration": 2762,
+    "score": {
+      "overall": 62.5,
+      "likert_mean": 75.0,
+      "mcq_mean": 50.0,
+      "likert_count": 1,
+      "mcq_count": 2
+    },
+    "context": "reflection",
+    "task_meta": {
+      "id": "1760366978714",
+      "name": "Quick Chat",
+      "category": "General"
+    }
+  },
+  {
+    "timestamp": "2025-10-13T21:20:00.827047",
+    "user_id": "user-c9ccb80eef3948c6989092cf6e0da676",
+    "task_id": "1760369768817",
+    "answers": {
+      "A4": "Infer a general principle from those answers (+1)",
+      "C2": 4
+    },
+    "iterations": 3,
+    "duration": 721,
+    "score": {
+      "overall": 87.5,
+      "likert_mean": 75.0,
+      "mcq_mean": 100.0,
+      "likert_count": 1,
+      "mcq_count": 1
+    },
+    "context": "reflection",
+    "task_meta": {
+      "id": "1760369768817",
+      "name": "Test1",
+      "category": "Work"
+    }
+  },
+  {
+    "timestamp": "2025-10-13T21:20:24.831853",
+    "user_id": "user-c9ccb80eef3948c6989092cf6e0da676",
+    "task_id": "1760369757185",
+    "answers": {
+      "B2": 5,
+      "J4": "Strong (+1)",
+      "D1": 5
+    },
+    "iterations": 0,
+    "duration": 855,
+    "score": {
+      "overall": 100.0,
+      "likert_mean": 100.0,
+      "mcq_mean": 100.0,
+      "likert_count": 2,
+      "mcq_count": 1
+    },
+    "context": "reflection",
+    "task_meta": {
+      "id": "1760369757185",
+      "name": "Quick Chat",
+      "category": "General"
+    }
+  },
+  {
+    "timestamp": "2025-10-14T09:00:00.000000",
+    "user_id": "user-c9ccb80eef3948c6989092cf6e0da676",
+    "task_id": "dummy-trust-xyz",
+    "answers": {
+      "I1": 4,
+      "I2": 2,
+      "I3": 5,
+      "I4": "Accepted it without checking (+1)",
+      "I5": "Trusted the AI\u2019s version (+1)"
+    },
+    "iterations": 1,
+    "duration": 12,
+    "score": {
+      "overall": 91.67,
+      "likert_mean": 83.33,
+      "mcq_mean": 100.0,
+      "likert_count": 3,
+      "mcq_count": 2
+    },
+    "context": "reflection",
+    "task_meta": {
+      "id": "dummy-trust-xyz",
+      "name": "USE - FOR TRUST",
+      "category": "Demo"
+    }
+  },
+  {
+    "timestamp": "2025-10-14T21:40:57.395684",
+    "user_id": "user-c9ccb80eef3948c6989092cf6e0da676",
+    "task_id": "1760369757185",
+    "answers": {
+      "F1": 2,
+      "F4": "Stick with my original plan no matter what",
+      "E1": 2
+    },
+    "iterations": 4,
+    "duration": 868,
+    "score": {
+      "overall": 12.5,
+      "likert_mean": 25.0,
+      "mcq_mean": 0.0,
+      "likert_count": 2,
+      "mcq_count": 1
+    },
+    "context": "reflection",
+    "task_meta": {
+      "id": "1760369757185",
+      "name": "Quick Chat",
+      "category": "General"
+    }
+  },
+  {
+    "timestamp": "2025-10-14T21:48:45.924924",
+    "user_id": "user-c9ccb80eef3948c6989092cf6e0da676",
+    "task_id": "1760458270477",
+    "answers": {
+      "G3": 2,
+      "E3": 5,
+      "G2": 5
+    },
+    "iterations": 2,
+    "duration": 438,
+    "score": {
+      "overall": 75.0,
+      "likert_mean": 75.0,
+      "mcq_mean": null,
+      "likert_count": 3,
+      "mcq_count": 0
+    },
+    "context": "reflection",
+    "task_meta": {
+      "id": "1760458270477",
+      "name": "Quick Chat",
+      "category": "General"
+    }
+  },
+  {
+    "timestamp": "2025-10-14T22:02:37.980574",
+    "user_id": "user-seed-nikhil31",
+    "task_id": "1760168702661",
+    "answers": {
+      "A4": "Infer a general principle from those answers (+1)",
+      "E4": "Evaluated whether it fit my context (+1)",
+      "C1": 4
+    },
+    "iterations": 2,
+    "duration": 290844,
+    "score": {
+      "overall": 87.5,
+      "likert_mean": 75.0,
+      "mcq_mean": 100.0,
+      "likert_count": 1,
+      "mcq_count": 2
+    },
+    "context": "reflection",
+    "task_meta": {
+      "id": "1760168702661",
+      "name": "Quick Chat",
+      "category": "General"
+    }
+  },
+  {
+    "timestamp": "2025-10-14T22:02:43.600426",
+    "user_id": "user-seed-nikhil31",
+    "task_id": "1760168702661",
+    "answers": {},
+    "iterations": 2,
+    "duration": 290844,
+    "score": {
+      "overall": 0.0,
+      "likert_mean": null,
+      "mcq_mean": null,
+      "likert_count": 0,
+      "mcq_count": 0
+    },
+    "context": "reflection",
+    "task_meta": {
+      "id": "1760168702661",
+      "name": "Quick Chat",
+      "category": "General"
+    }
+  },
+  {
+    "timestamp": "2025-10-14T22:03:35.138967",
+    "user_id": "user-b231616357bb4f6ea69e938b5bb53771",
+    "task_id": null,
+    "answers": {
+      "CL1": [
+        "A few times a week",
+        "Occasionally"
+      ],
+      "CL2": [
+        "I analyze every angle",
+        "I ask for input"
+      ],
+      "CL3": [
+        "Creative reasoning",
+        "Focus and adaptability"
+      ]
+    },
+    "iterations": 0,
+    "duration": 0,
+    "task_meta": {},
+    "context": "baseline",
+    "score": {
+      "overall": 0.0,
+      "likert_mean": null,
+      "mcq_mean": null,
+      "likert_count": 0,
+      "mcq_count": 0
+    }
+  },
+  {
+    "timestamp": "2025-10-14T22:04:15.284255",
+    "user_id": "user-b231616357bb4f6ea69e938b5bb53771",
+    "task_id": "1760459633301",
+    "answers": {
+      "A3": 4,
+      "B2": 4,
+      "F5": "Dismissed the feedback"
+    },
+    "iterations": 2,
+    "duration": 11,
+    "score": {
+      "overall": 37.5,
+      "likert_mean": 75.0,
+      "mcq_mean": 0.0,
+      "likert_count": 2,
+      "mcq_count": 1
+    },
+    "context": "reflection",
+    "task_meta": {
+      "id": "1760459633301",
+      "name": "One",
+      "category": "Work"
+    }
+  },
+  {
+    "timestamp": "2025-10-14T22:04:38.166897",
+    "user_id": "user-b231616357bb4f6ea69e938b5bb53771",
+    "task_id": "1760459633301",
+    "answers": {
+      "I5": "Trusted the AI\u2019s version (+1)",
+      "E5": "Ignored the conflict",
+      "G2": 5
+    },
+    "iterations": 2,
+    "duration": 22,
+    "score": {
+      "overall": 75.0,
+      "likert_mean": 100.0,
+      "mcq_mean": 50.0,
+      "likert_count": 1,
+      "mcq_count": 2
+    },
+    "context": "reflection",
+    "task_meta": {
+      "id": "1760459633301",
+      "name": "One",
+      "category": "Work"
+    }
+  },
+  {
+    "timestamp": "2025-10-14T22:04:52.601720",
+    "user_id": "user-b231616357bb4f6ea69e938b5bb53771",
+    "task_id": "1760459633301",
+    "answers": {
+      "D3": 4,
+      "G1": 4,
+      "C3": 4
+    },
+    "iterations": 2,
+    "duration": 45,
+    "score": {
+      "overall": 75.0,
+      "likert_mean": 75.0,
+      "mcq_mean": null,
+      "likert_count": 3,
+      "mcq_count": 0
+    },
+    "context": "reflection",
+    "task_meta": {
+      "id": "1760459633301",
+      "name": "One",
+      "category": "Work"
+    }
+  },
+  {
+    "timestamp": "2025-10-14T22:05:48.213855",
+    "user_id": "user-b231616357bb4f6ea69e938b5bb53771",
+    "task_id": "1760459735533",
+    "answers": {
+      "I5": "Relied on my own knowledge",
+      "A5": "I shouldn\u2019t conclude anything"
+    },
+    "iterations": 0,
+    "duration": 0,
+    "score": {
+      "overall": 0.0,
+      "likert_mean": null,
+      "mcq_mean": 0.0,
+      "likert_count": 0,
+      "mcq_count": 2
+    },
+    "context": "reflection",
+    "task_meta": {
+      "id": "1760459735533",
+      "name": "Quick Chat",
+      "category": "General"
+    }
+  },
+  {
+    "timestamp": "2025-10-14T22:05:55.167861",
+    "user_id": "user-b231616357bb4f6ea69e938b5bb53771",
+    "task_id": "1760459733810",
+    "answers": {
+      "E4": "Passed it along without checking"
+    },
+    "iterations": 0,
+    "duration": 16,
+    "score": {
+      "overall": 0.0,
+      "likert_mean": null,
+      "mcq_mean": 0.0,
+      "likert_count": 0,
+      "mcq_count": 1
+    },
+    "context": "reflection",
+    "task_meta": {
+      "id": "1760459733810",
+      "name": "Quick Chat",
+      "category": "General"
+    }
+  },
+  {
+    "timestamp": "2025-10-16T00:59:06.945208",
+    "user_id": "user-seed-nikhil31",
+    "task_id": "1760556424538",
+    "answers": {
+      "F2": 5,
+      "I2": 4,
+      "E4": "Passed it along without checking"
+    },
+    "iterations": 2,
+    "duration": 16,
+    "score": {
+      "overall": 43.75,
+      "likert_mean": 87.5,
+      "mcq_mean": 0.0,
+      "likert_count": 2,
+      "mcq_count": 1
+    },
+    "context": "reflection",
+    "task_meta": {
+      "id": "1760556424538",
+      "name": "Prj 1",
+      "category": "Work"
+    }
+  },
+  {
+    "timestamp": "2025-10-16T06:21:37.318861",
+    "user_id": "user-1c89ca72a53e4f1a80bddb4c677e2f79",
+    "task_id": null,
+    "answers": {
+      "CL1": [
+        "Occasionally",
+        "Almost never"
+      ],
+      "CL2": [
+        "I analyze every angle",
+        "I ask for input"
+      ],
+      "CL3": [
+        "Focus and adaptability",
+        "Confidence with AI collaboration"
+      ]
+    },
+    "iterations": 0,
+    "duration": 0,
+    "task_meta": {},
+    "context": "baseline",
+    "score": {
+      "overall": 0.0,
+      "likert_mean": null,
+      "mcq_mean": null,
+      "likert_count": 0,
+      "mcq_count": 0
+    }
+  },
+  {
+    "timestamp": "2025-10-16T06:21:49.178343",
+    "user_id": "user-1c89ca72a53e4f1a80bddb4c677e2f79",
+    "task_id": "1760595337658",
+    "answers": {
+      "F4": "Stick with my original plan no matter what",
+      "G1": 4
+    },
+    "iterations": 2,
+    "duration": 363,
+    "score": {
+      "overall": 37.5,
+      "likert_mean": 75.0,
+      "mcq_mean": 0.0,
+      "likert_count": 1,
+      "mcq_count": 1
+    },
+    "context": "reflection",
+    "task_meta": {
+      "id": "1760595337658",
+      "name": "One",
+      "category": "Personal"
+    }
+  },
+  {
+    "timestamp": "2025-10-16T06:27:55.281225",
+    "user_id": "user-1c89ca72a53e4f1a80bddb4c677e2f79",
+    "task_id": "1760596034678",
+    "answers": {
+      "E1": 4,
+      "E2": 4,
+      "D1": 4
+    },
+    "iterations": 2,
+    "duration": 34,
+    "score": {
+      "overall": 75.0,
+      "likert_mean": 75.0,
+      "mcq_mean": null,
+      "likert_count": 3,
+      "mcq_count": 0
+    },
+    "context": "reflection",
+    "task_meta": {
+      "id": "1760596034678",
+      "name": "Quick Chat",
+      "category": "General"
+    }
+  },
+  {
+    "timestamp": "2025-10-16T06:38:20.786891",
+    "user_id": "user-1c89ca72a53e4f1a80bddb4c677e2f79",
+    "task_id": "1760596670701",
+    "answers": {
+      "E4": "Accepted it immediately",
+      "G4": "Ask AI and use its full response (+1)",
+      "I4": "Accepted it without checking (+1)"
+    },
+    "iterations": 1,
+    "duration": 4,
+    "score": {
+      "overall": 66.67,
+      "likert_mean": null,
+      "mcq_mean": 66.67,
+      "likert_count": 0,
+      "mcq_count": 3
+    },
+    "context": "reflection",
+    "task_meta": {
+      "id": "1760596670701",
+      "name": "Quick Chat",
+      "category": "General"
+    }
+  },
+  {
+    "timestamp": "2025-10-16T13:38:14.103785",
+    "user_id": "user-1c89ca72a53e4f1a80bddb4c677e2f79",
+    "task_id": "1760621843968",
+    "answers": {
+      "B1": 4,
+      "A3": 4,
+      "I1": 4
+    },
+    "iterations": 2,
+    "duration": 42,
+    "score": {
+      "overall": 75.0,
+      "likert_mean": 75.0,
+      "mcq_mean": null,
+      "likert_count": 3,
+      "mcq_count": 0
+    },
+    "context": "reflection",
+    "task_meta": {
+      "id": "1760621843968",
+      "name": "Quick Chat",
+      "category": "General"
+    }
+  },
+  {
+    "timestamp": "2025-10-16T13:38:21.942909",
+    "user_id": "user-1c89ca72a53e4f1a80bddb4c677e2f79",
+    "task_id": "1760621843968",
+    "answers": {},
+    "iterations": 2,
+    "duration": 53,
+    "score": {
+      "overall": 0.0,
+      "likert_mean": null,
+      "mcq_mean": null,
+      "likert_count": 0,
+      "mcq_count": 0
+    },
+    "context": "reflection",
+    "task_meta": {
+      "id": "1760621843968",
+      "name": "Quick Chat",
+      "category": "General"
+    }
+  },
+  {
+    "timestamp": "2025-10-16T13:41:31.024400",
+    "user_id": "user-1c89ca72a53e4f1a80bddb4c677e2f79",
+    "task_id": "1760621881853",
+    "answers": {
+      "B2": 2,
+      "A4": "Wait until I had more data before deciding",
+      "I2": 2
+    },
+    "iterations": 0,
+    "duration": 200,
+    "score": {
+      "overall": 12.5,
+      "likert_mean": 25.0,
+      "mcq_mean": 0.0,
+      "likert_count": 2,
+      "mcq_count": 1
+    },
+    "context": "reflection",
+    "task_meta": {
+      "id": "1760621881853",
+      "name": "Quick Chat",
+      "category": "General"
+    }
+  },
+  {
+    "timestamp": "2025-10-16T13:41:46.139280",
+    "user_id": "user-1c89ca72a53e4f1a80bddb4c677e2f79",
+    "task_id": "1760622065143",
+    "answers": {
+      "A4": "Ignore the similarities"
+    },
+    "iterations": 0,
+    "duration": 35,
+    "score": {
+      "overall": 0.0,
+      "likert_mean": null,
+      "mcq_mean": 0.0,
+      "likert_count": 0,
+      "mcq_count": 1
+    },
+    "context": "reflection",
+    "task_meta": {
+      "id": "1760622065143",
+      "name": "Quick Chat",
+      "category": "General"
+    }
+  },
+  {
+    "timestamp": "2025-10-17T06:00:36.344650",
+    "user_id": "user-b4acd2e4782b4889a750f234164e5050",
+    "task_id": null,
+    "answers": {
+      "CL1": [
+        "Every day"
+      ],
+      "CL2": [
+        "I trust my instincts"
+      ],
+      "CL3": [
+        "Creative reasoning"
+      ]
+    },
+    "iterations": 0,
+    "duration": 0,
+    "task_meta": {},
+    "context": "baseline",
+    "score": {
+      "overall": 0.0,
+      "likert_mean": null,
+      "mcq_mean": null,
+      "likert_count": 0,
+      "mcq_count": 0
+    }
+  },
+  {
+    "timestamp": "2025-10-17T06:02:36.473168",
+    "user_id": "user-b4acd2e4782b4889a750f234164e5050",
+    "task_id": "1760680846745",
+    "answers": {
+      "J1": 4,
+      "J2": 4,
+      "I4": "Partially checked but used it"
+    },
+    "iterations": 2,
+    "duration": 72,
+    "score": {
+      "overall": 37.5,
+      "likert_mean": 75.0,
+      "mcq_mean": 0.0,
+      "likert_count": 2,
+      "mcq_count": 1
+    },
+    "context": "reflection",
+    "task_meta": {
+      "id": "1760680846745",
+      "name": "Email",
+      "category": "General"
+    }
+  },
+  {
+    "timestamp": "2025-10-17T06:07:37.526913",
+    "user_id": "user-b4acd2e4782b4889a750f234164e5050",
+    "task_id": "1760681197221",
+    "answers": {
+      "E4": "Accepted it immediately",
+      "C4": "Wait for training materials"
+    },
+    "iterations": 1,
+    "duration": 6,
+    "score": {
+      "overall": 0.0,
+      "likert_mean": null,
+      "mcq_mean": 0.0,
+      "likert_count": 0,
+      "mcq_count": 2
+    },
+    "context": "reflection",
+    "task_meta": {
+      "id": "1760681197221",
+      "name": "email",
+      "category": "General"
+    }
+  },
+  {
+    "timestamp": "2025-10-17T06:09:42.286825",
+    "user_id": "user-b4acd2e4782b4889a750f234164e5050",
+    "task_id": "1760681324141",
+    "answers": {
+      "I3": 4,
+      "G3": 4,
+      "F2": 2
+    },
+    "iterations": 1,
+    "duration": 15,
+    "score": {
+      "overall": 58.33,
+      "likert_mean": 58.33,
+      "mcq_mean": null,
+      "likert_count": 3,
+      "mcq_count": 0
+    },
+    "context": "reflection",
+    "task_meta": {
+      "id": "1760681324141",
+      "name": "email",
+      "category": "General"
+    }
+  },
+  {
+    "timestamp": "2025-10-17T07:47:27.603690",
+    "user_id": "user-31b990e701b74050b15d7566ba00de96",
+    "task_id": null,
+    "answers": {
+      "CL1": [
+        "A few times a week"
+      ],
+      "CL2": [
+        "I analyze every angle",
+        "I ask for input",
+        "I trust my instincts"
+      ],
+      "CL3": [
+        "Confidence with AI collaboration",
+        "Decision clarity",
+        "Creative reasoning",
+        "Focus and adaptability"
+      ]
+    },
+    "iterations": 0,
+    "duration": 0,
+    "task_meta": {},
+    "context": "baseline",
+    "score": {
+      "overall": 0.0,
+      "likert_mean": null,
+      "mcq_mean": null,
+      "likert_count": 0,
+      "mcq_count": 0
+    }
+  },
+  {
+    "timestamp": "2025-10-17T07:58:52.994630",
+    "user_id": "user-31b990e701b74050b15d7566ba00de96",
+    "task_id": "1760687345712",
+    "answers": {
+      "G1": 5,
+      "I2": 4,
+      "B1": 5
+    },
+    "iterations": 2,
+    "duration": 354,
+    "score": {
+      "overall": 91.67,
+      "likert_mean": 91.67,
+      "mcq_mean": null,
+      "likert_count": 3,
+      "mcq_count": 0
+    },
+    "context": "reflection",
+    "task_meta": {
+      "id": "1760687345712",
+      "name": "LOA",
+      "category": "Work"
+    }
+  },
+  {
+    "timestamp": "2025-10-17T08:06:11.295044",
+    "user_id": "user-31b990e701b74050b15d7566ba00de96",
+    "task_id": "1760687345712",
+    "answers": {
+      "B1": 5,
+      "G3": 5,
+      "C5": "Skim quickly and move on"
+    },
+    "iterations": 4,
+    "duration": 615,
+    "score": {
+      "overall": 50.0,
+      "likert_mean": 100.0,
+      "mcq_mean": 0.0,
+      "likert_count": 2,
+      "mcq_count": 1
+    },
+    "context": "reflection",
+    "task_meta": {
+      "id": "1760687345712",
+      "name": "LOA",
+      "category": "Work"
+    }
+  },
+  {
+    "timestamp": "2025-10-17T08:56:16.995959",
+    "user_id": "user-b4acd2e4782b4889a750f234164e5050",
+    "task_id": "1760691205369",
+    "answers": {
+      "D4": "Relate it to something familiar to me (+1)",
+      "B4": "Deduce what to do in my specific situation (+1)",
+      "J5": "Easily (+1)"
+    },
+    "iterations": 2,
+    "duration": 88,
+    "score": {
+      "overall": 100.0,
+      "likert_mean": null,
+      "mcq_mean": 100.0,
+      "likert_count": 0,
+      "mcq_count": 3
+    },
+    "context": "reflection",
+    "task_meta": {
+      "id": "1760691205369",
+      "name": "Email",
+      "category": "General"
+    }
+  }
+]

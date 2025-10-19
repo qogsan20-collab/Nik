@@ -1,0 +1,263 @@
+{
+  "1760595337658": {
+    "id": "1760595337658",
+    "task_id": "1760595337658",
+    "user_id": "user-1c89ca72a53e4f1a80bddb4c677e2f79",
+    "name": "One",
+    "category": "Personal",
+    "messages": [
+      {
+        "id": "msg-18bf2de5828b4fbf8eb10865cbd48bcf",
+        "role": "user",
+        "content": "Hii",
+        "timestamp": "2025-10-16T06:15:40.958544"
+      },
+      {
+        "id": "msg-fea79da49287477c87d46c8c9dbbb9c2",
+        "role": "assistant",
+        "content": "Hello! I'm ready to assist you with your QOG tasks.\n\nTo get started, please tell me what you need help with today. For example, you could ask me to:\n\n*   Explain a QOG concept\n*   Help you structure a QOG task\n*   Review a QOG-related query\n*   Provide guidance on a specific QOG process\n\nHow can I assist you?",
+        "timestamp": "2025-10-16T06:15:43.614937",
+        "metadata": {
+          "format": "markdown"
+        }
+      },
+      {
+        "id": "msg-69793b2dad68406d9ebbb22a213e5f6b",
+        "role": "user",
+        "content": "who are u",
+        "timestamp": "2025-10-16T06:15:48.938666"
+      },
+      {
+        "id": "msg-5ca11c1b4f0e4e1ea5146cae1e8eb158",
+        "role": "assistant",
+        "content": "I am a QOG task assistant, designed to help you with various tasks related to QOG (Quality of Government).\n\nMy purpose is to:\n\n*   Provide information and explanations on QOG concepts.\n*   Offer actionable guidance for your QOG-related work.\n*   Help you structure and approach QOG tasks effectively.\n\nHow can I assist you with your QOG tasks today?",
+        "timestamp": "2025-10-16T06:15:50.401685",
+        "metadata": {
+          "format": "markdown"
+        }
+      }
+    ],
+    "iterations": 2,
+    "duration": 372,
+    "is_active": false,
+    "started_at": "2025-10-16T06:15:37.658765",
+    "completed_at": "2025-10-16T06:21:50.543430",
+    "created_at": "2025-10-16T06:15:37.658765",
+    "updated_at": "2025-10-16T06:21:50.543430",
+    "start_ts": 1760595337.658765,
+    "end_ts": 1760595710.5434482
+  },
+  "1760596034678": {
+    "id": "1760596034678",
+    "task_id": "1760596034678",
+    "user_id": "user-1c89ca72a53e4f1a80bddb4c677e2f79",
+    "name": "Quick Chat",
+    "category": "General",
+    "messages": [
+      {
+        "id": "msg-52c28ec0ecd84088abd91c185586f1af",
+        "role": "user",
+        "content": "hii",
+        "timestamp": "2025-10-16T06:27:17.163050"
+      },
+      {
+        "id": "msg-7ca7c92d4c784a71bc046c0a32aaf58c",
+        "role": "assistant",
+        "content": "Hello!\n\nI'm ready to help you with your QOG tasks. What specific task or question do you have for me today?",
+        "timestamp": "2025-10-16T06:27:18.988480",
+        "metadata": {
+          "format": "markdown"
+        }
+      },
+      {
+        "id": "msg-c12e2c9ba7c248d5bad1eedfb7888f6d",
+        "role": "user",
+        "content": "Who are you",
+        "timestamp": "2025-10-16T06:27:26.918289"
+      },
+      {
+        "id": "msg-50d0b73895914c02a185de4e48b21f19",
+        "role": "assistant",
+        "content": "I am QOG task assistant. My purpose is to help you with your tasks by providing actionable guidance, maintaining conversational context, and referencing prior answers.",
+        "timestamp": "2025-10-16T06:27:27.700541",
+        "metadata": {
+          "format": "markdown"
+        }
+      }
+    ],
+    "iterations": 2,
+    "duration": 42,
+    "is_active": false,
+    "started_at": "2025-10-16T06:27:14.678611",
+    "completed_at": "2025-10-16T06:27:57.135057",
+    "created_at": "2025-10-16T06:27:14.678611",
+    "updated_at": "2025-10-16T06:27:57.135057",
+    "start_ts": 1760596034.678611,
+    "end_ts": 1760596077.1350727
+  },
+  "1760596670701": {
+    "id": "1760596670701",
+    "task_id": "1760596670701",
+    "user_id": "user-1c89ca72a53e4f1a80bddb4c677e2f79",
+    "name": "Quick Chat",
+    "category": "General",
+    "messages": [
+      {
+        "id": "msg-dd2350f6639c491ebb587877e1a1ef31",
+        "role": "user",
+        "content": "Hii",
+        "timestamp": "2025-10-16T06:37:53.102130"
+      },
+      {
+        "id": "msg-da9a431ef6e34056808f88ddf06c0703",
+        "role": "assistant",
+        "content": "Hello! I'm ready to assist you with your QOG tasks.\n\nHow can I help you today? Please tell me what you're working on or what you need guidance with.",
+        "timestamp": "2025-10-16T06:37:55.217342",
+        "metadata": {
+          "format": "markdown"
+        }
+      }
+    ],
+    "iterations": 1,
+    "duration": 31,
+    "is_active": false,
+    "started_at": "2025-10-16T06:37:50.701572",
+    "completed_at": "2025-10-16T06:38:22.121923",
+    "created_at": "2025-10-16T06:37:50.701572",
+    "updated_at": "2025-10-16T06:38:22.121923",
+    "start_ts": 1760596670.701572,
+    "end_ts": 1760596702.1219387
+  },
+  "1760621843968": {
+    "id": "1760621843968",
+    "task_id": "1760621843968",
+    "user_id": "user-1c89ca72a53e4f1a80bddb4c677e2f79",
+    "name": "Quick Chat",
+    "category": "General",
+    "messages": [
+      {
+        "id": "msg-72669b8bdd524519bb1bba2fbcf057dc",
+        "role": "user",
+        "content": "hii",
+        "timestamp": "2025-10-16T13:37:29.004174"
+      },
+      {
+        "id": "msg-555a4fcb16db4475a57aafdd378a7373",
+        "role": "assistant",
+        "content": "Hi there! I'm ready to help.\n\nTo get started, please tell me what you'd like to do or what question you have.",
+        "timestamp": "2025-10-16T13:37:32.158056",
+        "metadata": {
+          "format": "markdown"
+        }
+      },
+      {
+        "id": "msg-fda2a4927c114cd1ba1e794cb651487d",
+        "role": "user",
+        "content": "who are u",
+        "timestamp": "2025-10-16T13:37:46.294268"
+      },
+      {
+        "id": "msg-870573b195884756a13d9ccc439436af",
+        "role": "assistant",
+        "content": "I am QOG task assistant, designed to help you with your tasks and questions.\n\nTo assist you effectively, please tell me what you're working on or what you need help with today.",
+        "timestamp": "2025-10-16T13:37:47.782314",
+        "metadata": {
+          "format": "markdown"
+        }
+      }
+    ],
+    "iterations": 2,
+    "duration": 59,
+    "is_active": false,
+    "started_at": "2025-10-16T13:37:23.968407",
+    "completed_at": "2025-10-16T13:38:23.203423",
+    "created_at": "2025-10-16T13:37:23.968407",
+    "updated_at": "2025-10-16T13:38:23.203423",
+    "start_ts": 1760621843.968407,
+    "end_ts": 1760621903.2034361
+  },
+  "1760621881853": {
+    "id": "1760621881853",
+    "task_id": "1760621881853",
+    "user_id": "user-1c89ca72a53e4f1a80bddb4c677e2f79",
+    "name": "Quick Chat",
+    "category": "General",
+    "messages": [],
+    "iterations": 0,
+    "duration": 210,
+    "is_active": false,
+    "started_at": "2025-10-16T13:38:01.853376",
+    "completed_at": "2025-10-16T13:41:32.526876",
+    "created_at": "2025-10-16T13:38:01.853376",
+    "updated_at": "2025-10-16T13:41:32.526876",
+    "start_ts": 1760621881.853376,
+    "end_ts": 1760622092.5268877
+  },
+  "1760622007915": {
+    "id": "1760622007915",
+    "task_id": "1760622007915",
+    "user_id": "user-1c89ca72a53e4f1a80bddb4c677e2f79",
+    "name": "Quick Chat",
+    "category": "General",
+    "messages": [],
+    "iterations": 0,
+    "duration": 113,
+    "is_active": true,
+    "started_at": "2025-10-16T13:40:07.915048",
+    "completed_at": null,
+    "created_at": "2025-10-16T13:40:07.915048",
+    "updated_at": "2025-10-16T13:40:07.915048",
+    "start_ts": 1760622007.915048,
+    "end_ts": null
+  },
+  "1760622065143": {
+    "id": "1760622065143",
+    "task_id": "1760622065143",
+    "user_id": "user-1c89ca72a53e4f1a80bddb4c677e2f79",
+    "name": "Quick Chat",
+    "category": "General",
+    "messages": [],
+    "iterations": 0,
+    "duration": 42,
+    "is_active": false,
+    "started_at": "2025-10-16T13:41:05.143326",
+    "completed_at": "2025-10-16T13:41:47.428804",
+    "created_at": "2025-10-16T13:41:05.143326",
+    "updated_at": "2025-10-16T13:41:47.428804",
+    "start_ts": 1760622065.143326,
+    "end_ts": 1760622107.4288175
+  },
+  "1760673366652": {
+    "id": "1760673366652",
+    "task_id": "1760673366652",
+    "user_id": "user-1c89ca72a53e4f1a80bddb4c677e2f79",
+    "name": "Quick Chat",
+    "category": "General",
+    "messages": [
+      {
+        "id": "msg-223b04584d3942b294d34dc9ed9e5224",
+        "role": "user",
+        "content": "Hiii",
+        "timestamp": "2025-10-17T03:56:09.491461"
+      },
+      {
+        "id": "msg-c7a16a9fcc434996a02471448437c35f",
+        "role": "assistant",
+        "content": "Hello! I'm ready to assist you with your QOG tasks.\n\nTo get started, please tell me:\n\n*   What specific task are you working on?\n*   What information do you need help with?\n*   Are there any particular tools or data you're using?",
+        "timestamp": "2025-10-17T03:56:11.281037",
+        "metadata": {
+          "format": "markdown"
+        }
+      }
+    ],
+    "iterations": 1,
+    "duration": 4,
+    "is_active": true,
+    "started_at": "2025-10-17T03:56:06.652344",
+    "completed_at": null,
+    "created_at": "2025-10-17T03:56:06.652344",
+    "updated_at": "2025-10-17T03:56:11.281037",
+    "start_ts": 1760673366.652344,
+    "end_ts": null
+  }
+}

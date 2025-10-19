@@ -1,0 +1,47 @@
+# Keep Docker context small and avoid secrets
+
+# Git metadata
+.git
+
+# Node / Vite
+node_modules
+npm-debug.log
+pnpm-lock.yaml
+.pnpm-store
+.yarn
+.yarnrc.yml
+.yarn/cache
+.yarn/unplugged
+.yarn/build-state.yml
+.yarn/install-state.gz
+.yarn/patches
+.yarn/releases
+.yarn/plugins
+.yarn/sdks
+.yarn/versions
+
+# Build outputs
+.dist
+build
+coverage
+*.log
+
+# Python virtualenv and caches
+backend/venv
+backend/__pycache__
+**/__pycache__
+*.pyc
+
+# Local env/secrets
+.env
+*.env
+backend/local.env
+
+# OS/editor
+.DS_Store
+.idea
+.vscode
+
+# Ignore screenshot
+*Screenshot*.png
+

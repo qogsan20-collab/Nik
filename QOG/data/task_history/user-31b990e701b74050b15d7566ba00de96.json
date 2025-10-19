@@ -1,0 +1,97 @@
+{
+  "1760687345712": {
+    "id": "1760687345712",
+    "task_id": "1760687345712",
+    "user_id": "user-31b990e701b74050b15d7566ba00de96",
+    "name": "LOA",
+    "category": "Work",
+    "messages": [
+      {
+        "id": "msg-da91f694ce764eb89bf4fc71a52411e9",
+        "role": "user",
+        "content": "write an email to manager on requesting leave of absence for your dental surgery next year and include that you would be required two weeks long vacation twice next year",
+        "timestamp": "2025-10-17T07:50:17.453793"
+      },
+      {
+        "id": "msg-24b24c70596f46b38468aa1e59ab78d1",
+        "role": "assistant",
+        "content": "Here's a draft email to your manager requesting leave for dental surgery and your two vacation periods next year. Remember to replace the bracketed placeholders with your specific details.\n\n```markdown\nSubject: Leave Request for [Your Name] - Dental Surgery & Vacation - [Year]\n\nDear [Manager's Name],\n\nI am writing to formally request a leave of absence for a planned dental surgery and to also request my vacation periods for [Year].\n\nI will require a period of leave for a necessary dental surgery scheduled for [Year]. While specific dates are not yet finalized, I anticipate needing [e.g., a few days, up to a week] for the procedure and recovery. I will provide you with the exact dates as soon as they are confirmed by my dental specialist, aiming to give you ample notice.\n\nAdditionally, I would like to request two separate two-week long vacation periods during [Year]. I understand the importance of planning and would be happy to discuss potential dates that work best with team schedules and project timelines.\n\nI am committed to ensuring a smooth workflow during my absences. I will work proactively to complete any urgent tasks, prepare for my time away, and ensure proper handover for any ongoing projects.\n\nPlease let me know a convenient time to discuss these requests further and finalize the details.\n\nThank you for your understanding and support.\n\nBest regards,\n\n[Your Name]\n```",
+        "timestamp": "2025-10-17T07:50:26.117111",
+        "metadata": {
+          "format": "markdown"
+        }
+      },
+      {
+        "id": "msg-876878caf7f740c3b88e5c9a89fa35c3",
+        "role": "user",
+        "content": "write an email to manager on requesting leave of absence for your dental surgery next year and would be required to take two weeks absence twice for the procedure.",
+        "timestamp": "2025-10-17T07:54:57.703266"
+      },
+      {
+        "id": "msg-1810d3e5b04e41088ffc2cea0f455637",
+        "role": "assistant",
+        "content": "Here's a draft email to your manager requesting leave for your dental surgery next year, specifically mentioning the need for two separate two-week absences.\n\n```markdown\nSubject: Leave Request for [Your Name] - Dental Surgery - [Year]\n\nDear [Manager's Name],\n\nI am writing to formally request a leave of absence for a necessary dental surgery scheduled for [Year].\n\nThis procedure will require two separate periods of absence, each lasting two weeks, for the surgery itself and subsequent recovery. While the exact dates are not yet confirmed by my dental specialist, I wanted to provide you with this information as early as possible for planning purposes.\n\nI will inform you of the precise dates as soon as they are finalized, aiming to give you ample notice to minimize any disruption to the team's workflow. I am committed to ensuring a smooth handover of my responsibilities and completing any urgent tasks before my absences.\n\nPlease let me know a convenient time to discuss these requests further and plan for my time away.\n\nThank you for your understanding and support.\n\nBest regards,\n\n[Your Name]\n```",
+        "timestamp": "2025-10-17T07:55:00.024555",
+        "metadata": {
+          "format": "markdown"
+        }
+      },
+      {
+        "id": "msg-6dc60b2c35d44d6693c62acb07f29496",
+        "role": "user",
+        "content": "write an email to manager requesting leave of absence",
+        "timestamp": "2025-10-17T08:02:40.112547"
+      },
+      {
+        "id": "msg-18fa54a523d34e3c8a4fd89e0d99fbfa",
+        "role": "assistant",
+        "content": "Here's a template for a general leave of absence request. Remember to fill in the bracketed information with your specific details.\n\n```markdown\nSubject: Leave of Absence Request - [Your Name]\n\nDear [Manager's Name],\n\nI am writing to formally request a leave of absence from [Start Date] to [End Date], inclusive.\n\nThe reason for this request is [briefly state reason, e.g., personal matters, family event, medical appointment, etc. - you can be general if preferred, or specific if appropriate].\n\nI will ensure all my urgent tasks are completed and any ongoing projects are properly handed over before my absence. I am committed to minimizing any disruption to the team's workflow.\n\nPlease let me know if these dates are suitable and if there are any specific procedures I need to follow for this request.\n\nThank you for your consideration.\n\nBest regards,\n\n[Your Name]\n```",
+        "timestamp": "2025-10-17T08:02:41.976949",
+        "metadata": {
+          "format": "markdown"
+        }
+      },
+      {
+        "id": "msg-8b037642f106416abced9743b0ae6ea6",
+        "role": "user",
+        "content": "make it shorter",
+        "timestamp": "2025-10-17T08:03:37.861322"
+      },
+      {
+        "id": "msg-e88a402e067642b7b092b6915ac45414",
+        "role": "assistant",
+        "content": "Here's a shorter version:\n\n```markdown\nSubject: Leave of Absence Request - [Your Name]\n\nDear [Manager's Name],\n\nI would like to request a leave of absence from [Start Date] to [End Date] for [brief reason, e.g., personal reasons, family matters, medical appointment].\n\nI will ensure a smooth handover of my responsibilities before my absence.\n\nPlease let me know if these dates are feasible.\n\nThank you,\n\n[Your Name]\n```",
+        "timestamp": "2025-10-17T08:03:39.228320",
+        "metadata": {
+          "format": "markdown"
+        }
+      }
+    ],
+    "iterations": 4,
+    "duration": 1027,
+    "is_active": false,
+    "started_at": "2025-10-17T07:49:05.712487",
+    "completed_at": "2025-10-17T08:06:13.543770",
+    "created_at": "2025-10-17T07:49:05.712487",
+    "updated_at": "2025-10-17T08:06:13.543770",
+    "start_ts": 1760687345.712487,
+    "end_ts": 1760688373.5437846
+  },
+  "1760689638310": {
+    "id": "1760689638310",
+    "task_id": "1760689638310",
+    "user_id": "user-31b990e701b74050b15d7566ba00de96",
+    "name": "Quick Chat",
+    "category": "General",
+    "messages": [],
+    "iterations": 0,
+    "duration": 745,
+    "is_active": true,
+    "started_at": "2025-10-17T08:27:18.310207",
+    "completed_at": null,
+    "created_at": "2025-10-17T08:27:18.310207",
+    "updated_at": "2025-10-17T08:27:18.310207",
+    "start_ts": 1760689638.310207,
+    "end_ts": null
+  }
+}

@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>QOG Application</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+            background-color: #f5f5f5;
+        }
+        .container {
+            background: white;
+            padding: 30px;
+            border-radius: 10px;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+        }
+        h1 {
+            color: #333;
+            text-align: center;
+        }
+        .status {
+            background: #e8f5e8;
+            border: 1px solid #4caf50;
+            padding: 15px;
+            border-radius: 5px;
+            margin: 20px 0;
+        }
+        .api-test {
+            margin: 20px 0;
+        }
+        button {
+            background: #007bff;
+            color: white;
+            border: none;
+            padding: 10px 20px;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+        button:hover {
+            background: #0056b3;
+        }
+        .result {
+            margin-top: 10px;
+            padding: 10px;
+            background: #f8f9fa;
+            border-radius: 5px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>🚀 QOG Application</h1>
+        
+        <div class="status">
+            <strong>✅ Deployment Successful!</strong><br>
+            Your QOG application is now running on Google Cloud Platform.
+        </div>
+        
+        <h2>Application Status</h2>
+        <p><strong>Frontend:</strong> Running on port 80</p>
+        <p><strong>Backend API:</strong> Running on port 5000</p>
+        <p><strong>External IP:</strong> 35.238.253.107</p>
+        
+        <div class="api-test">
+            <h3>Test API Connection</h3>
+            <button onclick="testAPI()">Test Backend Health</button>
+            <div id="result" class="result" style="display: none;"></div>
+        </div>
+        
+        <h2>Next Steps</h2>
+        <ul>
+            <li>Access your application at: <a href="http://35.238.253.107">http://35.238.253.107</a></li>
+            <li>API endpoints are available at: <a href="http://35.238.253.107/api">http://35.238.253.107/api</a></li>
+            <li>Health check: <a href="http://35.238.253.107/api/health">http://35.238.253.107/api/health</a></li>
+        </ul>
+        
+        <h2>Features Available</h2>
+        <ul>
+            <li>✅ User authentication (signup/login)</li>
+            <li>✅ Task management</li>
+            <li>✅ Chat with AI assistant</li>
+            <li>✅ Reflection scoring</li>
+            <li>✅ Baseline assessment</li>
+            <li>✅ Prompt hacks</li>
+        </ul>
+    </div>
+    
+    <script>
+        async function testAPI() {
+            const resultDiv = document.getElementById('result');
+            resultDiv.style.display = 'block';
+            resultDiv.innerHTML = 'Testing...';
+            
+            try {
+                const response = await fetch('/api/health');
+                const data = await response.json();
+                resultDiv.innerHTML = `<strong>✅ API Response:</strong><br><pre>${JSON.stringify(data, null, 2)}</pre>`;
+            } catch (error) {
+                resultDiv.innerHTML = `<strong>❌ Error:</strong> ${error.message}`;
+            }
+        }
+    </script>
+</body>
+</html>

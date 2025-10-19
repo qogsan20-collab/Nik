@@ -1,0 +1,38 @@
+{
+  "version": 1,
+  "questions": [
+    {
+      "id": "CL1",
+      "question": "How often do you rely on AI tools in your workflow?",
+      "title": "How often do you rely on AI tools in your workflow?",
+      "options": [
+        "Every day",
+        "A few times a week",
+        "Occasionally",
+        "Almost never"
+      ]
+    },
+    {
+      "id": "CL2",
+      "question": "How do you usually approach new challenges?",
+      "title": "How do you usually approach new challenges?",
+      "options": [
+        "I trust my instincts",
+        "I analyze every angle",
+        "I ask for input",
+        "Jump in and refine as I go"
+      ]
+    },
+    {
+      "id": "CL3",
+      "question": "What would you most like to strengthen with QOG?",
+      "title": "What would you most like to strengthen with QOG?",
+      "options": [
+        "Decision clarity",
+        "Creative reasoning",
+        "Focus and adaptability",
+        "Confidence with AI collaboration"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,26 @@
+# Node / Vite
+node_modules/
+dist/
+
+# Python
+backend/__pycache__/
+backend/venv/
+*.pyc
+
+# Local data and caches
+backend/qog.db
+backend/task_history/
+
+# Env / secrets
+.env
+*.env
+backend/local.env
+
+# OS / editor
+.DS_Store
+.idea/
+.vscode/
+
+# Git
+.git/
+

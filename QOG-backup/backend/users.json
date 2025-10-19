@@ -1,0 +1,28 @@
+{
+  "users": {
+    "user-seed-nikhil31": {
+      "id": "user-seed-nikhil31",
+      "name": "Nikhil",
+      "email": "Nikhil31@gmail.com",
+      "password": "QOG1",
+      "created_at": "2025-10-12T00:00:00Z",
+      "updated_at": "2025-10-12T00:00:00Z"
+    },
+    "user-c9ccb80eef3948c6989092cf6e0da676": {
+      "id": "user-c9ccb80eef3948c6989092cf6e0da676",
+      "name": "XYZ",
+      "email": "XYZ@123",
+      "password": "QOG1",
+      "created_at": "2025-10-11T00:03:52.306368",
+      "updated_at": "2025-10-11T00:03:52.306368"
+    },
+    "user-b231616357bb4f6ea69e938b5bb53771": {
+      "id": "user-b231616357bb4f6ea69e938b5bb53771",
+      "name": "Nikhil",
+      "email": "Nikhil@Gmail.com",
+      "password": "123",
+      "created_at": "2025-10-14T22:03:25.894503",
+      "updated_at": "2025-10-14T22:03:25.894503"
+    }
+  }
+}
